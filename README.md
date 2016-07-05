@@ -82,6 +82,5 @@ Tai是泰山、ops是运维安全，但是自由版并没有带安全检测的�
 在专业版本中，将添加爬虫，和扫描的功能。可将收集到的目标导入扫描。
 如果有任何bug欢迎提交issues,或这有想和我一起完成这个项目的伙伴可加我微信讨论。
 ```
-![](http://dev.bugsrc.com/wp-content/uploads/2016/07/1212.png)
-![](http://dev.bugsrc.com/wp-content/uploads/2016/07/1212.png)
-![](http://dev.bugsrc.com/wp-content/uploads/2016/07/1212.png)
+![](http://dev.bugsrc.com/wp-content/uploads/2016/07/222.png)
+![](http://dev.bugsrc.com/wp-content/uploads/2016/07/xxxd.png)
