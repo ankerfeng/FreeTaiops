@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="content">
+<ul class="breadcrumb">
+        <li><a href="{{url_for('main.index')}}">首页</a> <span class="divider">/</span></li>
+        <li class="active">网站查询</li>
+</ul>
+<div class="content-wrap">
+  <div class="target-list-index">
+    <div class="search-well">
+        <form class="form-inline" action="{{url_for('main.q_site')}}">
+            <input class="input-xlarge" placeholder="baidu.com" id="appendedInputButton" type="text" name="q" value="{{q}}">
+            <button class="btn" type="submit"><i class="icon-search"></i>查询</button>
+        </form>
+    </div>
+<div class="panel panel-color">
+  <div class="panel-body" style="display: block;">
+    <section>
+    <ul id="myTab2" class="nav nav-tabs">
+      <li class="active">
+        <a href="#websitePanel" data-toggle="tab" aria-expanded="false">
+          网站查询
+        </a>
+      </li>
+    </ul>
+    <section class="panel">
+      <div class="panel-body">
+        <div id="myTabContent2" class="tab-content">
+          <div class="tab-pane active" id="websitePanel">
+            <section class="panel">
+              <div class="service-list-index">
+                {% if tables %}
+                <table class="table table-striped table-hover table-bordered">
+                  <thead>
+                    <tr>
+                      <th>url</th>
+                      <th>title</th>
+                      <th>httpcode</th>
+                      <th>app</th>
+                      <th>更新日期</th>
+                      <!--<th>操作</th>-->
+                    </tr>
+                  </thead>
+                  <tbody>
+                  {% for table in tables %}
+                    <tr>
+                      <td>
+                        <a data-remote="true" href="{{url_for('main.q_dns')}}?q={{table.host}}" target="_blank">
+                          {{table.host}}
+                        </a>
+                      </td>
+                      <td><a data-remote="true" href="http://{{table.host}}" target="_blank">{{table.title}}</a></td>
+                      <td>
+                        {{table.code}}
+                      </td>
+                      <td>{{table.app}}</td>
+                      <td>
+                          {{table.utime}}
+                      </td>
+                    </tr>
+                  {% endfor %}
+                  </tbody>
+                </table>
+                  {% if pagination %}
+                      {% import "pagination.html" as page %}
+                      {{ page.render_pagination(pagination, url_for('main.q_site')+"?q="+q) }}
+                  {% endif %}
+                {% elif q %}
+                  <div class="alert alert-info">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <span style="color:black">暂未找到您要的资源,欢迎提交新资源以便我们收录.</span></span>
+                  </div>
+                {% endif %}
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </section>    </section>
+  </div>
+</div>
+  </div>
+</div>
+{% endblock %}

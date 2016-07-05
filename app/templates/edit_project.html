@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block body %}
+
+<div class="content">
+<ul class="breadcrumb">
+        <li><a href={{url_for('auth.login')}}>首页</a> <span class="divider">/</span></li><li><a href="/poj">我的项目</a> <span class="divider">/</span></li>
+        <li class="active">编辑项目</li>
+</ul>
+
+<div class="content-wrap">
+    <div class="row-fluid">
+
+<div class="btn-toolbar">
+    <button class="btn btn-primary" onclick='$("#form").submit();'><i class="icon-save"></i>&nbsp;编辑</button>
+    <a href="{{url_for('main.project')}}"><button class="btn btn-primary"><i class="icon-share-alt"></i>返回</button></a>
+    <div class="btn-group"></div>
+</div>
+{% with messages = get_flashed_messages() %}
+    {% if messages %}
+      {% for message in messages %}
+      <div class="alert alert-info">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <span style="color:black">{{ message }}</span>
+      </div>
+        {% endfor %}
+        {% endif %}
+{% endwith %}
+<div class="well">
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#home" data-toggle="tab">项目信息</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active in">
+    <form id="form" method="post">
+        {{form.hidden_tag()}}
+        <label>项目名称</label>
+        {{form.name(class="input-xlarge", value=data.name)}}<span style="color:red;font-size:20px">&nbsp;*</span>
+        <label>根域名</label>
+        {{form.rootdomain(class="input-xlarge", value=data.rootdomain)}}<span style="color:red;font-size:20px">&nbsp;*</span>
+        <label>备注</label>
+        <textarea class="input-xlarge" id="note" name="note" rows="3" >{{data.note}}</textarea>
+    </form>
+      <script>
+        $("#note").html($("#note").val());
+      </script>
+      </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+{% block footer %}{% endblock %}
+{% endblock %}

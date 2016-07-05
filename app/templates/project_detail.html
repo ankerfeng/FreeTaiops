@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="content">
+<ul class="breadcrumb">
+  <li><a href="{{url_for('main.index')}}">首页</a> <span class="divider">/</span></li>
+  <li><a href="{{url_for('main.project')}}">项目列表</a> <span class="divider">/</span></li>
+  <li class="active">项目详情</li>
+</ul>
+<div class="content-wrap">
+    <div class="target-list-index" align="center">
+<div class="panel panel-color">
+  <div class="panel-body" style="display: block;">
+    <section>
+      <ul id="myTab2" class="nav nav-tabs">
+          {%if type=="domain"%}<li class="active">
+          {% else %}<li class="">
+          {% endif %}
+          <a href="?type=domain">域名</a>
+        </li>
+        {%if type=="site"%}<li class="active">
+        {% else %}<li class="">
+        {% endif %}
+          <a href="?type=site">网站列表</a>
+        </li>
+        {%if type=="ip"%}<li class="active">
+        {% else %}<li class="">
+        {% endif %}
+          <a href="?type=ip">IP列表</a>
+        </li>
+      </ul>
+      <section class="panel">
+        <div class="panel-body">
+          <div id="myTabContent2" class="tab-content">
+              {%if type=="domain"%}<div class="tab-pane active" id="domainPanel">
+              {% else %}<div class="tab-pane" id="doaminPanel">
+              {% endif %}
+                {% import "project_domain.html" as pd%}
+                {{pd.poj_domain_detail(G, pid)}}
+              </div>
+              {%if type=="site"%}<div class="tab-pane active">
+              {% else %}<div class="tab-pane">
+              {% endif %}
+                   {% import "project_site.html" as pd%}
+                   {{pd.poj_site_detail(G, pid)}}
+               </div>
+              {%if type=="ip"%}<div class="tab-pane active">
+              {% else %}<div class="tab-pane">
+              {% endif %}
+              {% import "project_ip.html" as pi%}
+                {{pi.ip_detail(G, pid)}}
+              </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+</div>
+    </div>
+</div>
+<!-- modal -->
+<div class="modal hide small fade" id="FormModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
+<script src="{{url_for('static', filename='js/ajax.js')}}" type="text/javascript"></script>
+{% endblock %}

@@ -1,0 +1,46 @@
+{% macro poj_site_detail(G, pid)%}
+<div class="btn-toolbar" align="left">
+<button class="btn btn-primary add_project_site" data-toggle="modal" href="#FormModal" data-url="{{url_for('main.add_poj_site')}}"
+data-pid="{{pid}}" ><i class="icon-plus"></i>添加网站</button>
+<div class="btn-group"></div>
+</div>
+<section class="panel">
+<div class="panel-body no-padding">
+  <div class="domain-list-index">
+    <table class="table table-striped table-hover table-bordered">
+      <thead>
+        <tr>
+          <th>URL</th>
+          <th>更新时间</th>
+          <th>备注</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+       <tbody>
+       {% if G.poj_sites %}
+       {%- for table in G.poj_sites %}
+        <tr>
+          <td>
+            <a data-remote="true" href="{{table.url}}" target="_blank">
+              {{table.url}}
+            </a>
+          </td>
+          <td>{{table.utime}}</td>
+          <td>{{table.note}}</td>
+          <td>
+            <a class="btn btn-success btn-sm del_project_domain" data-toggle="modal" href="#FormModal"
+               data-pid="{{table.pid}}", data-id="{{table.id}}" data-url="{{url_for('main.del_poj_site')}}">删除</a>
+          </td>
+        </tr>
+       {%- endfor %}
+        {% endif %}
+        </tbody>
+    </table>
+    {% if G.poj_site_pg %}
+      {% import "pagination.html" as page %}
+      {{ page.render_pagination(G.poj_site_pg, url_for('main.project_detail', pid=pid)+"?type=site") }}
+    {% endif %}
+  </div>
+</div>
+</section>
+{%- endmacro %}

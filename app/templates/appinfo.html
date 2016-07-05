@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="content">
+<ul class="breadcrumb">
+        <li><a href="{{url_for('main.index')}}">首页</a> <span class="divider">/</span></li>
+        <li class="active">web应用识别</li>
+</ul>
+<div class="content-wrap">
+  <div class="target-list-index">
+    <div class="search-well">
+                <form class="form-inline" action="{{url_for('httpinfo.info')}}">
+                    <input class="input-xlarge" placeholder="http://www.baidu.com" id="appendedInputButton" type="text" name="s" value="{{s}}">
+                    <button class="btn" type="submit"><i class="icon-search"></i>查询</button>
+                </form>
+    </div>
+<div class="panel panel-color">
+  <div class="panel-body" style="display: block;">
+    <section>
+      <ul id="myTab2" class="nav nav-tabs">
+        <li class="active">
+          <a href="#servicePanel" data-toggle="tab" aria-expanded="false">
+            Web应用
+          </a>
+        </li>
+        </li>
+      </ul>
+  <section class="panel">
+        <div class="panel-body">
+          <div id="myTabContent2" class="tab-content">
+            <div class="tab-pane active" id="servicePanel">
+              <section class="panel">
+                <div class="service-list-index">
+                {% if t %}
+                  <div class="alert alert-info">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <span style="color:black">本次查询共消耗时间&nbsp;:&nbsp;<span style="color:black">{{t}}</span></span>
+                  </div>
+                {% endif %}
+                {% if app %}
+                  <table class="table table-striped table-hover table-bordered">
+                    <thead>
+                      <tr>
+                        <th style="width:20%">Title</th>
+                        <th>app</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <a data-remote="true" href="">{{app.title}}</a>
+                        </td>
+                        <td>{% for a in app.app %}{{a}}|{% endfor %}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                 {% endif %}
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+</div>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,42 @@
+{% macro ip_detail(G, pid)%}
+<div class="btn-toolbar" align="left">
+<button class="btn btn-primary add_poj_ip" data-toggle="modal" href="#FormModal" data-url="{{url_for('main.add_poj_ip')}}"
+data-pid="{{pid}}" ><i class="icon-plus"></i>添加IP</button>
+</div>
+<section class="panel">
+<div class="panel-body no-padding">
+  <div class="domain-list-index">
+    <table class="table table-striped table-hover table-bordered">
+      <thead>
+        <tr>
+          <th>IP地址</th>
+          <th>更新时间</th>
+          <th>备注</th>
+          <th>操作</th>
+        </tr>
+      </thead>
+       <tbody>
+       {% if G.poj_ips %}
+       {%- for table in G.poj_ips %}
+        <tr>
+          <td>
+            <a data-remote="true" href="{{url_for('main.q_dns')}}?q={{table.ip}}">{{table.ip}}</a>
+          </td>
+          <td>{{table.utime}}</td>
+          <td>{{table.note}}</td>
+          <td>
+            <a class="btn btn-success btn-sm del_project_ip" data-toggle="modal" href="#FormModal"
+               data-pid="{{pid}}", data-id="{{table.id}}" data-url="{{url_for('main.del_poj_ip')}}">删除</a>
+          </td>
+        </tr>
+       {%- endfor %}
+        {% endif %}
+        </tbody>
+    </table>{% if G.poj_ip_pg %}
+      {% import "pagination.html" as page %}
+      {{ page.render_pagination(G.poj_ip_pg, url_for('main.project_detail', pid=pid)+"?type=ip") }}
+    {% endif %}
+  </div>
+</div>
+</section>
+{%- endmacro %}

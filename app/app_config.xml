@@ -1,0 +1,9 @@
+<uwsgi>
+     <pythonpath>pwd</pythonpath>
+     <module>view</module>
+     <callable>app</callable>
+     <socket>127.0.0.1:9999</socket>
+     <master/>
+     <processes>4</processes>
+     <memory-report/>
+</uwsgi>

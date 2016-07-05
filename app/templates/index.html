@@ -1,0 +1,257 @@
+{% extends "base.html" %}
+{% block body %}
+    <div class="content">
+        <ul class="breadcrumb">
+            <li class="active"><span class="divider">/</span></li>
+            <li class="active">控制面板</li>
+        </ul>
+    <div class="container-fluid">
+        <div class="row-fluid">
+<div class="row-fluid">
+        {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    {% for message in messages %}
+      <div class="alert alert-info">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <span style="color:black">{{ message }}</span>
+      </div>
+      {% endfor %}
+    {% else %}
+    <div class="alert alert-info">
+        <button type="button" class="close" data-dismiss="alert">×</button>
+        <span style="color:black">请妥善保管好自己的APIKEY&nbsp;:&nbsp;<span style="color:black">{{current_user.apikey}}</span></span>
+    </div>
+
+    {% endif %}
+{% endwith %}
+
+</div>
+<div class="row-fluid">
+    <div class="block span6">
+        <div  class="block-body collapse in">
+    <div class="panel-body">
+        <div class="circle-icon bg-warning">
+          <i class="fa fa-bomb"></i>
+        </div>
+        <div>
+          <h5 class="no-margin">自动导入资产：子域名/IP/端口信息收集</h5>
+            <button class="btn btn-primary add_domain" data-toggle="modal" href="#import">
+                <i class="icon-plus"></i>导入</button>
+        </div>
+        <br>
+    </div>
+    </div>
+    </div>
+    <div class="block span6">
+        <div  class="block-body collapse in">
+    <div class="panel-body">
+        <div class="circle-icon bg-warning">
+          <i class="fa fa-bomb"></i>
+        </div>
+        <div>
+          <h5 class="no-margin">添加网站：手动添加一条网站记录</h5>
+            <button class="btn btn-primary add_domain" data-toggle="modal" href="#add_domain">
+                <i class="icon-plus"></i>添加</button>
+        </div>
+        <br>
+    </div>
+    </div>
+    </div>
+</div>
+<div class="row-fluid">
+    <div class="block span6">
+        <div class="block-body collapse in">
+    <div class="panel-body">
+        <div class="circle-icon bg-warning">
+          <i class="fa fa-bomb"></i>
+        </div>
+        <div>
+          <h5 class="no-margin">添加IP:手动添加一条IP记录，并手机IP端口信息</h5>
+            <button class="btn btn-primary add_domain" data-toggle="modal" href="#add_ip">
+                <i class="icon-plus"></i>添加</button>
+        </div>
+        <br>
+    </div>
+    </div>
+    </div>
+    <div class="block span6">
+        <div id="tablewidget" class="block-body collapse in">
+    <div class="panel-body">
+        <div class="circle-icon bg-warning">
+          <i class="fa fa-bomb"></i>
+        </div>
+        <div>
+          <h5 class="no-margin">添加服务端口：单独添加一个端口信息，并进行指纹识别</h5>
+            <button class="btn btn-primary add_domain" data-toggle="modal" href="#add_ip_port">
+                <i class="icon-plus"></i>添加</button>
+        </div>
+        <br>
+    </div>
+    </div>
+    </div>
+</div>
+
+<!--Modal 导入域名-->
+<div class="modal small hide fade" id="import" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">添加域名</h3>
+  </div>
+<form method="post" action="?type=assert">
+  <div class="modal-body">
+      <div class="form-group">
+      {{form_groups['assert'].hidden_tag()}}
+      <label>入口:根域名</label>
+       <div>
+           {{form_groups['assert'].domain(class="form-control")}}
+       </div>
+      </div>
+      <div class="form-group">
+      <label>备注</label>
+       <div>
+           {{form_groups['assert'].note(class="form-control")}}
+       </div>
+      </div>
+      <div class="controls">
+      </div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">取消</button>
+    <button class="btn btn-danger" type="submit">添加</button>
+  </div>
+  </form>
+</div>
+<!--Modal 添加网站-->
+<div class="modal small hide fade" id="add_domain" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="domain_label">添加网站</h3>
+  </div>
+<form method="post" action="?type=site">
+  <div class="modal-body">
+      <div class="form-group">
+      {{form_groups['site'].hidden_tag()}}
+      <label>URL</label>
+       <div>
+           {{form_groups['site'].url(class="form-control")}}
+       </div>
+      </div>
+      <div class="form-group">
+      <label>备注</label>
+       <div>
+           {{form_groups['site'].note(class="form-control")}}
+       </div>
+      </div>
+      <div class="controls">
+      </div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">取消</button>
+    <button class="btn btn-danger" type="submit">添加</button>
+  </div>
+  </form>
+</div>
+<!--Modal 添IP-->
+<div class="modal small hide fade" id="add_ip" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="ip_label">添加IP</h3>
+  </div>
+<form method="post" action="?type=ip">
+  <div class="modal-body">
+      <div class="form-group">
+      {{form_groups['ip'].hidden_tag()}}
+      <label>IP地址</label>
+       <div>
+           {{form_groups['ip'].ip(class="form-control")}}
+       </div>
+      </div>
+      <div class="form-group">
+      <label>备注</label>
+       <div>
+           {{form_groups['ip'].note(class="form-control")}}
+       </div>
+      </div>
+      <div class="controls">
+      </div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">取消</button>
+    <button class="btn btn-danger" type="submit">添加</button>
+  </div>
+  </form>
+</div>
+<!--Modal 添加服务端口-->
+<div class="modal small hide fade" id="add_ip_port" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="ipport_label">添加服务端口</h3>
+  </div>
+<form method="post" action="?type=ip_port">
+  <div class="modal-body">
+      <div class="form-group">
+      {{form_groups['ip_port'].hidden_tag()}}
+      <label>[IP]</label>
+       <div>
+           {{form_groups['ip_port'].target(class="form-control")}}
+       </div>
+      </div>
+       <div class="form-group">
+      <label>PORT</label>
+       <div>
+           {{form_groups['ip_port'].port(class="form-control")}}
+       </div>
+      </div>
+      <div class="form-group">
+      <label>备注</label>
+       <div>
+           {{form_groups['ip_port'].note(class="form-control")}}
+       </div>
+      </div>
+      <div class="controls">
+      </div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">取消</button>
+    <button class="btn btn-danger" type="submit">添加</button>
+  </div>
+  </form>
+</div>
+<h3>资产导入日志:</h3>
+<div class="well">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>value</th>
+          <th>type</th>
+          <th>note</th>
+          <th>添加日期</th>
+          <th style="width: 26px;"></th>
+        </tr>
+      </thead>
+      <tbody>
+      {% if tables %}
+        {% for td in tables %}
+        <tr>
+          <td>{{td.value}}</td>
+          <td>{{td.type}}</td>
+          <td>{{td.note}}</td>
+          <td>{{td.addtime}}</td>
+          <td>
+              <!--<a href="user.html"><i class="icon-pencil"></i></a>-->
+              <!--<a href="#myModal" role="button" data-toggle="modal"><i class="icon-remove"></i></a>-->
+          </td>
+        </tr>
+      {% endfor %}
+      {% endif %}
+      </tbody>
+      {% if pagination %}
+        {% import "pagination.html" as page %}
+        {{ page.render_pagination(pagination, url_for('main.index')+"?") }}
+      {% endif %}
+    </table>
+</div>
+{% if msg %}
+    <script>alert({{msg}});</script>
+{%endif %}
+{% endblock %}

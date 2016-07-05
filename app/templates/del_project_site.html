@@ -1,0 +1,16 @@
+<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="myModalLabel">警告！</h3>
+ </div>
+<div class="modal-body">
+  <p class="error-text"><i class="icon-warning-sign modal-icon"></i>确认要删除该域名？</p>
+  <form id="ajax_form">
+    {{form.hidden_tag()}}
+    {{form.pid(id="input-pid", type="hidden")}}
+    {{form.id(type="hidden", id="input-id")}}
+  </form>
+</div>
+<div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">关闭</button>
+    <button class="btn btn-danger" data-dismiss="modal" id="ajax_del_submit">确认</button>
+</div>

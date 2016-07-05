@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="content">
+    <ul class="breadcrumb">
+        <li><a href="{{url_for('main.index')}}">后台首页</a> <span class="divider">/</span></li>
+        <li class="active">个人资料</li>
+    </ul>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+  <ul class=flashes>
+      {% for message in messages %}
+      <div class="page-header alert alert-warning alert-dismissible ade in" role="alert">
+          <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">×</span></button>
+          <strong>提示：</strong>{{ message }}
+        </div>
+        {% endfor %}
+            </ul>
+        {% endif %}
+  {% endwith %}
+<div class="container-fluid">
+    <div class="row-fluid">
+<div class="row-fluid">
+    <div class="block span6">
+        <a href="#tablewidget" class="block-heading" data-toggle="collapse">基本资料</a>
+        <div id="tablewidget" class="block-body collapse in">
+            <div class="panel-body">
+            <div class="form-group">
+                <label class="control-label">用户名</label>
+                <input class="form-control" disabled="disabled" type="text" value="{{current_user.name}}" name="user[username]" id="user_username">
+            </div>
+            <div class="form-group">
+              <label class="control-label">邮箱</label>
+              <input class="form-control" disabled="disabled" type="email" value="{{current_user.email}}" name="user[email]" id="user_email">
+            </div>
+        </div>
+        </div>
+        <br/><br/><br/>
+        <div class="row-fluid">
+        <a href="#password" class="block-heading" data-toggle="collapse">修改密码</a>
+        <div id="password" class="block-body collapse in">
+            <br>
+            <form method="post">
+                <div class="panel-body">
+                <div class="form-group">
+                    {{form.hidden_tag()}}
+                    <label class="control-label">原密码</label>
+                    {{form.old_password(class="form-control", type="password")}}
+                </div>
+                <div class="form-group">
+                  <label class="control-label">新密码</label>
+                  {{form.newpwd(class="form-control", type="password")}}
+                </div>
+                <div class="form-group">
+                  <label class="control-label">确认密码</label>
+                  {{form.newpwd2(class="form-control", type="password")}}
+                </div>
+                <!-- End .form-group  -->
+                <div class="form-group mb15">
+                  <input type="submit" value="确认" class="btn btn-primary">
+                </div>
+                <br/>
+            </form>
+            <!-- End .form-group  -->
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="block span6">
+        <div class="block-heading">
+            <span class="block-icon pull-right">
+                <a href="#" class="demo-cancel-click" rel="tooltip" data-original-title="Click to refresh"><i class="icon-refresh"></i></a>
+            </span>
+            <a href="#widget2container" data-toggle="collapse">登录记录</a>
+        </div>
+        <div id="widget2container" class="block-body collapse in">
+            <table class="table list">
+              <tbody>
+              {% if tables %}
+                {% for table in tables %}
+                  <tr>
+                      <td>
+                          <p><i class="icon-user"></i>{{current_user.name}}</p>
+                      </td>
+                      <td>
+                          <p>登录IP:{{table.ip}}</p>
+                      </td>
+                      <td>
+                          <p>{{table.ltime}}</p>
+                      </td>
+                  </tr>
+                  {% endfor %}
+              {% endif %}
+              </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}

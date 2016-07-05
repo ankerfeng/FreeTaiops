@@ -1,0 +1,30 @@
+{% macro render_pagination(pagination, uri) %}
+<div class="col-lg-4">
+  <div class="pull-left">
+      {% if pagination.has_prev %}
+            <a href="{{uri}}&pn={{pagination.prev_num}}">上一页</a>
+      {% endif %}
+    <!--<em class="current">-->
+      <!--1-->
+    <!--</em>-->
+    {%- for page in pagination.iter_pages() %}
+        {% if page %}
+            {% if page != pagination.page %}
+                <a href="{{uri}}&pn={{page}}">{{page}}</a>
+        {% else %}
+            <em class="current">{{ page }}</em>
+        {% endif %}
+
+        {% else %}
+            <span class=ellipsis>…</span>
+        {% endif %}
+    {%- endfor %}
+    {% if pagination.has_next %}
+    <a class="next_page" rel="next" href="{{uri}}&pn={{pagination.next_num}}">
+      下一页
+    </a>
+    {% endif %}
+   </div>
+</div>
+
+{%- endmacro %}

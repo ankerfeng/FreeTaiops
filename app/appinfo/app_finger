@@ -1,0 +1,2258 @@
+{
+    "Tncms": {
+        "url": "http://cn.bing.com/search?q=tncms+Xrds&go=提交&qs=n&form=QBRE&pq=tncms+xrds&sc=0-6&sp=-1&sk=&cvid=663f37af2cd849a0918ffe5212c56463",
+        "rule": "[{\"header\":[\"X-Tncms-Version\"]}]"
+    },
+    "Varnish": {
+        "url": "https://www.varnish-cache.org",
+        "rule": "[{\"header\":[\"X-Varnish\"]}]"
+    },
+    "ExtMail": {
+        "url": "http://www.extmail.org",
+        "rule": "[{\"title\":[\"欢迎使用ExtMail\"]},{\"body\":[\"setCookie('extmail_username\"]}]"
+    },
+    "LUM服务器管理": {
+        "url": "http://www.lum.net.cn",
+        "rule": "[{\"header\":[\"LUM_SESSION\"]}]"
+    },
+    "weidun": {
+        "url": "http://www.weidun.com.cn",
+        "rule": "[{\"header\":[\"Firewall: www.weidun.com.cn\"]}]"
+    },
+    "锐捷NBR路由器": {
+        "url": "http://www.ruijie.com.cn/",
+        "rule": "[{\"body\":[\"free_nbr_login_form.png\"]}]"
+    },
+    "cart_engine": {
+        "url": "http://www.c97.net",
+        "rule": "[{\"body\":[\"skins/_common/jscripts.css\"]}]"
+    },
+    "安慧网盾": {
+        "url": "http://www.huianquan.com",
+        "rule": "[{\"header\":[\"Protected-By: AnHui Web Firewall\"]}]"
+    },
+    "LiteSpeed": {
+        "url": "http://litespeedtech.com/",
+        "rule": "[{\"header\":[\"Server: LiteSpeed\"]}]"
+    },
+    "UMI.CMS": {
+        "url": "http://www.umi-cms.ru",
+        "rule": "[{\"header\":[\"UMI.CMS\"]}]"
+    },
+    "Zikula_CMS": {
+        "url": "http://www.zikula.de",
+        "rule": "[{\"header\":[\"ZKSID2\"]}]"
+    },
+    "PhpCMS": {
+        "url": "http://www.phpcms.com/",
+        "rule": "[{\"body\":[\"Powered by\",\"http://www.phpcms.cn\"]},{\"body\":[\"content=\\\"Phpcms\"]},{\"body\":[\"Powered by Phpcms\"]}]"
+    },
+    "qibosoft v7": {
+        "url": "http://www.qibosoft.com/",
+        "rule": "[{\"body\":[\"/images/v7/cms.css\\\">\"]}]"
+    },
+    "Apache": {
+        "url": "http://www.apache.org",
+        "rule": "[{\"header\":[\"Server: Apache\"]}]"
+    },
+    "IBM_HTTP_Server": {
+        "url": "http://www-03.ibm.com/software/products/en/http-servers/",
+        "rule": "[{\"header\":[\"IBM_HTTP_Server\"]}]"
+    },
+    "advancedwebstats": {
+        "url": "http://www.advancedwebstats.com",
+        "rule": "[{\"body\":[\"caphyon-analytics.com/aws.js\"]}]"
+    },
+    "webEdition": {
+        "url": "http://www.webedition.org",
+        "rule": "[{\"body\":[\"generator\\\" content=\\\"webEdition\"]}]"
+    },
+    "AlloyUI": {
+        "url": "http://www.alloyui.com",
+        "rule": "[{\"body\":[\"cdn.alloyui.com\"]}]"
+    },
+    "mod_jk": {
+        "url": "http://tomcat.apache.org/tomcat-3.3-doc/mod_jk-howto.html",
+        "rule": "[{\"header\":[\"mod_jk\"]}]"
+    },
+    "Django": {
+        "url": "http://djangoproject.com",
+        "rule": "[{\"body\":[\"__admin_media_prefix__\"]},{\"body\":[\"csrfmiddlewaretoken\"]}]"
+    },
+    "快网": {
+        "url": "http://www.fastweb.com.cn/",
+        "rule": "[{\"header\":[\"Fw-Via: \"]}]"
+    },
+    "蓝盾BDWebGuard": {
+        "url": "http://www.bluedon.com/product/category/4.html",
+        "rule": "[{\"body\":[\"BACKGROUND: url(images/loginbg.jpg) #e5f1fc\"]}]"
+    },
+    "U-Mail": {
+        "url": "http://www.comingchina.com",
+        "rule": "[{\"body\":[\"<BODY LINK=\\\"White\\\" VLINK=\\\"White\\\" ALINK=\\\"White\\\">\"]}]"
+    },
+    "O2OCMS": {
+        "url": "http://www.zzqss.com/",
+        "rule": "[{\"body\":[\"/index.php/clasify/showone/gtitle/\"]}]"
+    },
+    "cmseasy": {
+        "url": "http://www.cmseasy.cn/",
+        "rule": "[{\"title\":[\"Powered by CmsEasy\"]},{\"header\":[\"http://www.cmseasy.cn/service_1.html\"]},{\"body\":[\"content=\\\"CmsEasy\"]}]"
+    },
+    "mirapoint": {
+        "url": "http://www.mirapoint.com",
+        "rule": "[{\"body\":[\"/wm/mail/login.html\"]}]"
+    },
+    "Dotdefender": {
+        "url": "http://www.applicure.com/Products/dotdefender",
+        "rule": "[{\"header\":[\"X-Dotdefender-Denied\"]}]"
+    },
+    "CDR-Stats": {
+        "url": "http://www.cdr-stats.org",
+        "rule": "[{\"title\":[\"CDR-Stats | Customer Interface\"]},{\"body\":[\"/static/cdr-stats/js/jquery\"]}]"
+    },
+    "全国烟草系统": {
+        "url": "#",
+        "rule": "[{\"body\":[\"ycportal/webpublish\"]}]"
+    },
+    "AOLserver": {
+        "url": "http://aolserver.sourceforge.net",
+        "rule": "[{\"header\":[\"AOLserver\"]}]"
+    },
+    "iGENUS_webmail": {
+        "url": "http://www.igenus.cn",
+        "rule": "[{\"body\":[\"script/logo_display_set.js\",\"check code\"]},{\"body\":[\"top.location='login.php';\"]},{\"body\":[\"iGENUS WEBMAIL SYSTEM\"]},{\"body\":[\"css/igenus.css\"]}]"
+    },
+    "PaloAlto_Firewall": {
+        "url": "https://www.paloaltonetworks.com",
+        "rule": "[{\"body\":[\"Access to the web page you were trying to visit has been blocked in accordance with company policy\"]}]"
+    },
+    "URP 综合教务系统": {
+        "url": "http://jwxt.bibt.edu.cn/",
+        "rule": "[{\"body\":[\"<input name=\\\"j_captcha_response\\\" type=\\\"hidden\"]},{\"title\":[\"URP 综合教务系统\"]}]"
+    },
+    "MVB2000": {
+        "url": "http://www.mvb2000.cn",
+        "rule": "[{\"title\":[\"MVB2000\"]},{\"body\":[\"The Magic Voice Box\"]}]"
+    },
+    "AD_RS设备": {
+        "url": "http://ipv6.google.com.hk/#newwindow=1&q=AD_RS_COOKIE",
+        "rule": "[{\"header\":[\"AD_RS_COOKIE\"]}]"
+    },
+    "瑞友天翼_应用虚拟化系统": {
+        "url": "http://www.realor.cn/product/tianyi/",
+        "rule": "[{\"title\":[\"瑞友天翼－应用虚拟化系统\"]}]"
+    },
+    "ZTE_MiFi_UNE": {
+        "url": "http://www.zte.com.cn/cn/",
+        "rule": "[{\"title\":[\"MiFi UNE 4G LTE\"]}]"
+    },
+    "OpenMas": {
+        "url": "http://zj.chinamobile.com",
+        "rule": "[{\"title\":[\"OpenMas\"]},{\"body\":[\"loginHead\\\"><link href=\\\"App_Themes\"]}]"
+    },
+    "DotNetNuke": {
+        "url": "http://www.dnnsoftware.com/",
+        "rule": "[{\"header\":[\"DotNetNukeAnonymous\"]},{\"header\":[\"Dnnoutputcache\"]}]"
+    },
+    "PHPOA": {
+        "url": "http://www.phpoa.cn",
+        "rule": "[{\"body\":[\"admin_img/msg_bg.png\"]}]"
+    },
+    "西部数码": {
+        "url": "http://www.west263.com/",
+        "rule": "[{\"header\":[\"WT263CDN\"]}]"
+    },
+    "CMSTop": {
+        "url": "http://www.cmstop.com/",
+        "rule": "[{\"body\":[\"/css/cmstop-common.css\"]},{\"body\":[\"/js/cmstop-common.js\"]},{\"body\":[\"cmstop-list-text.css\"]},{\"body\":[\"<a class=\\\"poweredby\\\" href=\\\"http://www.cmstop.com\\\"\"]}]"
+    },
+    "Zeus": {
+        "url": "http://zeus.com",
+        "rule": "[{\"header\":[\"Server: Zeus\"]}]"
+    },
+    "Liferay": {
+        "url": "http://www.liferay.com",
+        "rule": "[{\"header\":[\"Liferay-Portal\"]}]"
+    },
+    "BoyowCMS": {
+        "url": "http://www.boyow.com/Index.html",
+        "rule": "[{\"body\":[\"publish by BoyowCMS\"]}]"
+    },
+    "fisheye": {
+        "url": "https://www.atlassian.com/software/fisheye/overview",
+        "rule": "[{\"header\":[\"Set-Cookie: FESESSIONID\"]},{\"body\":[\"fisheye-16.ico\"]}]"
+    },
+    "ASPCMS": {
+        "url": "http://www.aspcms.com/",
+        "rule": "[{\"title\":[\"Powered by ASPCMS\"]},{\"body\":[\"content=\\\"ASPCMS\"]},{\"body\":[\"/inc/AspCms_AdvJs.asp\"]}]"
+    },
+    "Microsoft-HTTPAPI": {
+        "url": "http://www.microsoft.com",
+        "rule": "[{\"header\":[\"Microsoft-HTTPAPI\"]}]"
+    },
+    "TinyShop": {
+        "url": "http://www.tinyrise.com/",
+        "rule": "[{\"body\":[\"var server_url = '/__con__/__act__';\"]},{\"body\":[\"tiny_token_\"]}]"
+    },
+    "XYCMS": {
+        "url": "http://www.yuleroom.cn/",
+        "rule": "[{\"title\":[\"Powered by XYCMS\"]},{\"body\":[\"advfile/ad12.js\"]}]"
+    },
+    "Hanweb": {
+        "url": "http://www.hanweb.com/",
+        "rule": "[{\"body\":[\"Produced By 大汉网络\"]},{\"body\":[\"/jcms_files/jcms\"]},{\"body\":[\"<meta name='Author' content='大汉网络'>\"]},{\"body\":[\"<meta name='Generator' content='大汉版通'>\"]},{\"body\":[\"<a href='http://www.hanweb.com' style='display:none'>\"]}]"
+    },
+    "exchange": {
+        "url": "http://office.microsoft.com/zh-cn/exchange/FX103765014.aspx",
+        "rule": "[{\"header\":[\"owa\"]},{\"body\":[\"owaLgnBdy\"]},{\"header\":[\"OutlookSession\"]}]"
+    },
+    "ThinkSAAS": {
+        "url": "http://www.thinksaas.cn",
+        "rule": "[{\"body\":[\"/app/home/skins/default/style.css\"]}]"
+    },
+    "Incapsula": {
+        "url": "http://www.incapsula.com/",
+        "rule": "[{\"header\":[\"X-Cdn: Incapsula\"]}]"
+    },
+    "Amaya": {
+        "url": "http://www.w3.org/Amaya",
+        "rule": "[{\"body\":[\"generator\\\" content=\\\"Amaya\"]}]"
+    },
+    "北京阳光环球建站系统": {
+        "url": "http://www.sunad.net.cn/wangzhanjianshe/",
+        "rule": "[{\"body\":[\"bigSortProduct.asp?bigid\"]}]"
+    },
+    "SonicWALL": {
+        "url": "http://www.sonicwall.com/",
+        "rule": "[{\"header\":[\"Server: SonicWALL\"]}]"
+    },
+    "Struts2": {
+        "url": "http://struts.apache.org/",
+        "rule": "[{\"header\":[\"JSESSIONID\"],\"body\":[\".action\"]},{\"body\":[\"Struts Problem Report\"]},{\"body\":[\"There is no Action mapped for namespace\"]},{\"body\":[\"No result defined for action and result input\"]}]"
+    },
+    "OnSSI_Video_Clients": {
+        "url": "http://www.onssi.com",
+        "rule": "[{\"title\":[\"OnSSI Video Clients\"]},{\"body\":[\"x-value=\\\"On-Net Surveillance Systems Inc.\\\"\"]}]"
+    },
+    "TechartCMS": {
+        "url": "http://www.techart.ru",
+        "rule": "[{\"header\":[\"X-Powered-Cms: Techart CMS\"]}]"
+    },
+    "方维众筹": {
+        "url": "http://www.fanwe.com/index.php?ctl=zongchou#yanshi",
+        "rule": "[{\"body\":[\"app/Tpl/fanwe_1/images/lazy_loading.gif\",\"index.php?ctl=article_cate\"]}]"
+    },
+    "亿邮": {
+        "url": "http://eyou.net/",
+        "rule": "[{\"body\":[\"EYOU企业邮箱\"]},{\"header\":[\"eYouWS\"]},{\"body\":[\"cr\\\">eYouMail\"]},{\"header\":[\"EMPHPSID\"]}]"
+    },
+    "Lotus": {
+        "url": "http://ibm.com",
+        "rule": "[{\"title\":[\"IBM Lotus iNotes Login\"]},{\"body\":[\"iwaredir.nsf\"]}]"
+    },
+    "网易企业邮箱": {
+        "url": "http://qiye.163.com/",
+        "rule": "[{\"title\":[\"邮箱用户登录\"],\"body\":[\"frmvalidator\"]}]"
+    },
+    "Motorola_SBG900": {
+        "url": "http://www.motorolasolutions.com/CN-ZH/Business+Solutions/Industry+Solutions/Utilities/Wireless+Broadband+Solution_CN-ZH",
+        "rule": "[{\"title\":[\"Motorola SBG900\"]}]"
+    },
+    "mantis": {
+        "url": "http://www.mantisbt.org",
+        "rule": "[{\"body\":[\"browser_search_plugin.php?type=id\"]},{\"body\":[\"MantisBT Team\"]}]"
+    },
+    "arrisi_Touchstone": {
+        "url": "http://www.arrisi.com/products/touchstone/",
+        "rule": "[{\"title\":[\"Touchstone Status\"]},{\"body\":[\"passWithWarnings\"]}]"
+    },
+    "imailserver": {
+        "url": "http://www.imailserver.com/",
+        "rule": "[{\"body\":[\"myICalUserName\"]},{\"header\":[\"Ipswitch-IMail\"]}]"
+    },
+    "网趣网上购物系统旗舰版": {
+        "url": "http://www.cnhww.com/list.asp?id=8",
+        "rule": "[{\"header\":[\"Set-Cookie: dmwh%5Fuser\"]},{\"body\":[\"class.asp?lx=tejia\",\"images/cnhww_css.css\",\"Wq_StranJF.js\"]}]"
+    },
+    "百为路由": {
+        "url": "http://www.bytevalue.com/",
+        "rule": "[{\"body\":[\"提交验证的id必须是ctl_submit\"]}]"
+    },
+    "BitrixSiteManager": {
+        "url": "http://www.1c-bitrix.ru",
+        "rule": "[{\"header\":[\"X-Powered-Cms: Bitrix InfoSite Manager\"]}]"
+    },
+    "HuaweiHomeGateway": {
+        "url": "http://www.huawei.com",
+        "rule": "[{\"header\":[\"HuaweiHomeGateway\"]}]"
+    },
+    "hikashop": {
+        "url": "http://www.hikashop.com",
+        "rule": "[{\"body\":[\"/media/com_hikashop/css/\"]}]"
+    },
+    "awstats_admin": {
+        "url": "http://www.awstats.org/",
+        "rule": "[{\"body\":[\"generator\\\" content=\\\"AWStats\"]},{\"body\":[\"<frame name=\\\"mainleft\\\" src=\\\"awstats.pl?config=\"]}]"
+    },
+    "北京清科锐华CEMIS": {
+        "url": "http://www.reachway.com.cn/web/cemis/introduction.aspx",
+        "rule": "[{\"body\":[\"/theme/2009/image\",\"login.asp\"]}]"
+    },
+    "LiquidGIS": {
+        "url": "http://www.liquidgis.com/",
+        "rule": "[{\"header\":[\"Productname: LiquidGIS\"]}]"
+    },
+    "UcSTAR": {
+        "url": "http://www.qqtech.com/comm/index.htm",
+        "rule": "[{\"title\":[\"UcSTAR 管理控制台\"]}]"
+    },
+    "plone": {
+        "url": "http://plone.org/",
+        "rule": "[{\"header\":[\"plone.content\"]},{\"body\":[\"generator\\\" content=\\\"Plone\"]}]"
+    },
+    "sdcms": {
+        "url": "http://www.sdcms.cn",
+        "rule": "[{\"title\":[\"powered by sdcms\"],\"body\":[\"var webroot=\",\"/js/sdcms.js\"]}]"
+    },
+    "CrushFTP": {
+        "url": "http://www.crushftp.com",
+        "rule": "[{\"header\":[\"Server: CrushFTP HTTP Server\"]}]"
+    },
+    "WHM": {
+        "url": "http://cpanel.net/cpanel-whm/",
+        "rule": "[{\"header\":[\"whostmgrsession\"]}]"
+    },
+    "perl": {
+        "url": "http://www.perl.org",
+        "rule": "[{\"header\":[\"perl\"]}]"
+    },
+    "ZendServer": {
+        "url": "http://www.zend.com/en/products/server",
+        "rule": "[{\"header\":[\"ZendServer\"]}]"
+    },
+    "webbuilder": {
+        "url": "http://www.putdb.com",
+        "rule": "[{\"body\":[\"src=\\\"webbuilder/script/wb.js\"]}]"
+    },
+    "IdeaCMS": {
+        "url": "http://www.ideacms.net/",
+        "rule": "[{\"body\":[\"Powered By IdeaCMS\"]},{\"body\":[\"m_ctr32\"]}]"
+    },
+    "squid": {
+        "url": "http://www.squid-cache.org/",
+        "rule": "[{\"header\":[\"squid\"]}]"
+    },
+    "phpMyadmin": {
+        "url": "http://www.phpmyadmin.net/",
+        "rule": "[{\"header\":[\"Set-Cookie: phpMyAdmin=\"]},{\"title\":[\"phpMyAdmin \"]},{\"body\":[\"pma_password\"]}]"
+    },
+    "ASP.NET": {
+        "url": "http://www.iis.net/",
+        "rule": "[{\"header\":[\"X-Powered-By: ASP.NET\"]}]"
+    },
+    "帝国CMS": {
+        "url": "http://www.phome.net/",
+        "rule": "[{\"title\":[\"Powered by EmpireCMS\"]},{\"body\":[\"/skin/default/js/tabs.js\"]},{\"body\":[\"/e/member/login/loginjs.php\"]}]"
+    },
+    "Sun-ONE-Web-Server": {
+        "url": "http://docs.oracle.com/cd/E19857-01/817-1831-10/agintro.html",
+        "rule": "[{\"header\":[\"Sun-ONE-Web-Server\"]}]"
+    },
+    "Typecho": {
+        "url": "http://typecho.org",
+        "rule": "[{\"body\":[\"generator\\\" content=\\\"Typecho\"]},{\"body\":[\"强力驱动\",\"Typecho\"]}]"
+    },
+    "EasyTrace(botwave)": {
+        "url": "http://www.botwave.com/products/easytrace/solution.html",
+        "rule": "[{\"title\":[\"EasyTrace\"],\"body\":[\"login_page\"]}]"
+    },
+    "mod_rack": {
+        "url": "http://phusionpassenger.com",
+        "rule": "[{\"header\":[\"mod_rack\"]}]"
+    },
+    "Aicache": {
+        "url": "http://aiscaler.com",
+        "rule": "[{\"header\":[\"X-Aicache\"]}]"
+    },
+    "nvdvr": {
+        "url": "http://www.nvdvr.net/",
+        "rule": "[{\"title\":[\"XWebPlay\"]}]"
+    },
+    "JSPGOU": {
+        "url": "http://demo3.jeecms.com/",
+        "rule": "[{\"title\":[\"Powered by JSPGOU\"]},{\"body\":[\"/r/gou/www/css/\",\"shopMember/index.jspx\"]}]"
+    },
+    "Phusion": {
+        "url": "https://www.phusionpassenger.com",
+        "rule": "[{\"header\":[\"Phusion\"]}]"
+    },
+    "Citrix_Netscaler": {
+        "url": "http://www.citrix.com.tw/products/netscaler-application-delivery-controller/overview.html",
+        "rule": "[{\"header\":[\"ns_af\"]}]"
+    },
+    "Wimax_CPE": {
+        "url": "http://www.huawei.com/cn/ProductsLifecycle/RadioAccessProducts/WiMAXProducts/hw-194630.htm",
+        "rule": "[{\"title\":[\"Wimax CPE Configuration\"]}]"
+    },
+    "vBulletin": {
+        "url": "http://www.vBulletin.com/",
+        "rule": "[{\"title\":[\"Powered by vBulletin\"],\"body\":[\"content=\\\"vBulletin\"]},{\"header\":[\"bbsessionhash\",\"bblastvisit\"]},{\"body\":[\"Powered by vBulletin&trade;\"]}]"
+    },
+    "Angularjs": {
+        "url": "http://www.angularjs.org/",
+        "rule": "[{\"body\":[\"angularjs\"]}]"
+    },
+    "亿赛通DLP": {
+        "url": "http://www.esafenet.com/",
+        "rule": "[{\"body\":[\"CDGServer3\"]}]"
+    },
+    "金蝶中间件Apusic": {
+        "url": "http://www.apusic.com/",
+        "rule": "[{\"header\":[\"Apusic\"]}]"
+    },
+    "微门户": {
+        "url": "http://www.tvm.cn",
+        "rule": "[{\"body\":[\"/tpl/Home/weimeng/common/css/\"]}]"
+    },
+    "hubspot": {
+        "url": "http://www.hubspot.com",
+        "rule": "[{\"body\":[\"js.hubspot.com/analytics\"]}]"
+    },
+    "asp168欧虎": {
+        "url": "http://www.asp168.com",
+        "rule": "[{\"body\":[\"App_Themes/1/Style.css\"]},{\"body\":[\"window.location = \\\"homepages/index.aspx\"]},{\"body\":[\"homepages/content_page.aspx\"]}]"
+    },
+    "Tumblr": {
+        "url": "https://www.tumblr.com/",
+        "rule": "[{\"header\":[\"X-Tumblr-User\"]}]"
+    },
+    "mod_ssl": {
+        "url": "http://modssl.org",
+        "rule": "[{\"header\":[\"mod_ssl\"]}]"
+    },
+    "IIS": {
+        "url": "http://www.iis.net/",
+        "rule": "[{\"header\":[\"Microsoft-IIS\"]},{\"header\":[\"X-Powered-By: WAF/2.0\"]}]"
+    },
+    "TerraMaster": {
+        "url": "http://www.terra-master.com/",
+        "rule": "[{\"body\":[\"/js/common.js\"],\"title\":[\"vcxvcxv\"]}]"
+    },
+    "wspx": {
+        "url": "http://ipv6.google.com.hk/search?q=%22X-Copyright:+wspx",
+        "rule": "[{\"header\":[\"X-Copyright: wspx\"]},{\"header\":[\"X-Powered-By: ANSI C\"]}]"
+    },
+    "sharepoint": {
+        "url": "http://microsoft.com/",
+        "rule": "[{\"header\":[\"Microsoftsharepointteamservices\"]},{\"header\":[\"X-Sharepointhealthscore\"]}]"
+    },
+    "OpenSSL": {
+        "url": "http://openssl.org",
+        "rule": "[{\"header\":[\"OpenSSL\"]}]"
+    },
+    "eaststorecreeator": {
+        "url": "http://www.easystorecreator.com/",
+        "rule": "[{\"header\":[\"easystorecreator1\"]}]"
+    },
+    "kangle反向代理": {
+        "url": "http://www.kanglesoft.com",
+        "rule": "[{\"header\":[\"kangle\"]},{\"title\":[\"welcome use kangle\"]}]"
+    },
+    "baidu站长平台": {
+        "url": "http://zhanzhang.baidu.com/?castk=LTE%3D",
+        "rule": "[{\"body\":[\"baidu-site-verification\"]}]"
+    },
+    "3COM_NBX": {
+        "url": "http://inpath.com/products/3com-nbx.html",
+        "rule": "[{\"title\":[\"NBX NetSet\"]},{\"body\":[\"NBX\"],\"header\":[\"Alternates\"]}]"
+    },
+    "SIMIT_framework": {
+        "url": "https://www.google.com.hk/search?num=100&newwindow=1&safe=strict&client=firefox&hs=Bv8&rls=org.mozilla%3Azh-CN%3Aofficial&channel=sb&q=SIMIT+framework&oq=SIMIT+framework&gs_l=serp.3...57489.58975.0.59211.9.7.0.0.0.0.0.0..0.0.msedrc...0...1c.1.56.serp..9.0",
+        "rule": "[{\"header\":[\"SIMIT framework\"]}]"
+    },
+    "ECMall": {
+        "url": "http://ecmall.shopex.cn",
+        "rule": "[{\"header\":[\"ECM_ID\"]},{\"body\":[\"generator\\\" content=\\\"ECMall\"]}]"
+    },
+    "LuManager": {
+        "url": "http://www.zijidelu.org/",
+        "rule": "[{\"title\":[\"LuManager\"]}]"
+    },
+    "emlog": {
+        "url": "http://www.emlog.net/",
+        "rule": "[{\"body\":[\"content=\\\"emlog\\\"\"]}]"
+    },
+    "F5_BIGIP": {
+        "url": "http://www.f5.com.cn",
+        "rule": "[{\"header\":[\"BIGipServer\"]},{\"header\":[\"X-WA-Info\"]},{\"header\":[\"X-PvInfo\"]}]"
+    },
+    "flow_framework": {
+        "url": "http://flow.typo3.org/home",
+        "rule": "[{\"header\":[\"FLOW/FRAMEWORK\"]}]"
+    },
+    "Cocoon": {
+        "url": "http://cocoon.apache.org",
+        "rule": "[{\"header\":[\"X-Cocoon-Version\"]}]"
+    },
+    "joomla-facebook": {
+        "url": "https://www.sourcecoast.com/joomla-facebook/",
+        "rule": "[{\"header\":[\"jfbconnect_permissions_granted\"]}]"
+    },
+    "用友商战实践平台": {
+        "url": "http://tradewar.135e.com",
+        "rule": "[{\"body\":[\"Login_Main_BG\",\"Login_Owner\"]}]"
+    },
+    "unknown_cms_rcms": {
+        "url": "http://fofa.so/",
+        "rule": "[{\"body\":[\"r/cms/www\"]},{\"header\":[\"clientlanguage\"]}]"
+    },
+    "BPanelCMS": {
+        "url": "http://www.bpanel.net",
+        "rule": "[{\"header\":[\"X-Powered-Cms: BPanel CMS\"]}]"
+    },
+    "国家数字化学习资源中心系统": {
+        "url": "http://ipv6.google.com.hk/#newwindow=1&q=%22技术支持：中央广播电视大学现代远程教育资源中心%22",
+        "rule": "[{\"title\":[\"页面加载中,请稍候\"],\"body\":[\"FrontEnd\"]}]"
+    },
+    "Phabricator": {
+        "url": "http://phabricator.org",
+        "rule": "[{\"header\":[\"phsid\"]},{\"body\":[\"phabricator-application-launch-container\"]},{\"body\":[\"res/phabricator\"]}]"
+    },
+    "juniper_vpn": {
+        "url": "http://www.juniper.net/cn/zh/products-services/",
+        "rule": "[{\"body\":[\"welcome.cgi?p=logo\"]}]"
+    },
+    "zenoss": {
+        "url": "http://www.zenoss.com",
+        "rule": "[{\"body\":[\"/zport/dmd/\"]}]"
+    },
+    "bootstrap": {
+        "url": "http://getbootstrap.com/",
+        "rule": "[{\"body\":[\"bootstrap.css\"]},{\"body\":[\"bootstrap.min.css\"]}]"
+    },
+    "dasannetworks": {
+        "url": "http://www.dasannetworks.com/en/index.asp",
+        "rule": "[{\"body\":[\"clear_cookie(\\\"login\\\");\"]}]"
+    },
+    "TCCMS": {
+        "url": "http://www.teamcen.com/",
+        "rule": "[{\"title\":[\"Power By TCCMS\"]},{\"body\":[\"index.php?ac=link_more\",\"index.php?ac=news_list\"]}]"
+    },
+    "Lotus-Domino": {
+        "url": "http://www-03.ibm.com/software/products/en/ibmdomino",
+        "rule": "[{\"header\":[\"Server: Lotus-Domino\"]}]"
+    },
+    "Parallels Plesk Panel": {
+        "url": "http://www.parallels.com/products/plesk/",
+        "rule": "[{\"body\":[\"Parallels IP Holdings GmbH\"]}]"
+    },
+    "Adobe_ CQ5": {
+        "url": "http://adobe.com/products/cq.html",
+        "rule": "[{\"body\":[\"_jcr_content\"]}]"
+    },
+    "梭子鱼设备": {
+        "url": "http://www.barracudanetworks.com",
+        "rule": "[{\"header\":[\"BarracudaHTTP\"]}]"
+    },
+    "Adobe_RoboHelp": {
+        "url": "http://adobe.com/products/robohelp.html",
+        "rule": "[{\"body\":[\"generator\\\" content=\\\"Adobe RoboHelp\"]}]"
+    },
+    "jira": {
+        "url": "https://www.atlassian.com/software/jira",
+        "rule": "[{\"body\":[\"jira.webresources\"]},{\"header\":[\"atlassian.xsrf.token\"]},{\"body\":[\"ams-build-number\"]},{\"body\":[\"com.atlassian.plugins\"]}]"
+    },
+    "PageAdmin": {
+        "url": "http://www.pageadmin.net/",
+        "rule": "[{\"title\":[\"Powered by PageAdmin\"]},{\"body\":[\"content=\\\"PageAdmin\"]},{\"body\":[\"Powered by <a href='http://www.pageadmin.net'\"]},{\"body\":[\"/e/images/favicon.ico\"]}]"
+    },
+    "SJSWPS_ OiWPS": {
+        "url": "http://www.oracle.com/technetwork/middleware/webtier/overview/index.html#iPS",
+        "rule": "[{\"header\":[\"Sun-Java-System-Web-Proxy-Server\"]},{\"header\":[\"Oracle-iPlanet-Proxy-Server\"]}]"
+    },
+    "concrete5": {
+        "url": "http://www.concrete5.org",
+        "rule": "[{\"body\":[\"generator\\\" content=\\\"ezCMS\"]},{\"header\":[\"CONCRETE5\"]},{\"body\":[\"CCM_DISPATCHER_FILENAME\"]}]"
+    },
+    "泛微协同办公OA": {
+        "url": "http://www.weaver.com.cn/products/enature_info.asp",
+        "rule": "[{\"header\":[\"testBanCookie\"]},{\"body\":[\"/wui/common/css/w7OVFont.css\"]}]"
+    },
+    "amazon-cloudfront": {
+        "url": "http://aws.amazon.com/cn/cloudfront/",
+        "rule": "[{\"header\":[\"X-Amz-Cf-Id\"]}]"
+    },
+    "bxemail": {
+        "url": "http://www.bxemail.com",
+        "rule": "[{\"title\":[\"百讯安全邮件系统\"]},{\"title\":[\"百姓邮局\"]},{\"body\":[\"请输入正确的电子邮件地址，如：abc@bxemail.com\"]}]"
+    },
+    "synkronvia": {
+        "url": "http://synkronvia.com",
+        "rule": "[{\"header\":[\"Synkron Via CMS\"]}]"
+    },
+    "Nginx": {
+        "url": "http://nginx.org",
+        "rule": "[{\"header\":[\"Server: nginx\"]}]"
+    },
+    "yunyin": {
+        "url": "http://press.njtu.edu.cn",
+        "rule": "[{\"body\":[\"技术支持：云因信息\"]},{\"body\":[\"<a href=\\\"../scrp/getpassword.cfm\"]},{\"body\":[\"/scrp/book.cfm\\\" method=\\\"post\\\">\"]}]"
+    },
+    "帝联": {
+        "url": "http://www.dnion.com/",
+        "rule": "[{\"header\":[\"Server: DNION\"]},{\"header\":[\"fastcdn.com\"]}]"
+    },
+    "DokuWiki": {
+        "url": "https://www.dokuwiki.org",
+        "rule": "[{\"body\":[\"generator\\\" content=\\\"DokuWiki\"]},{\"header\":[\"DokuWiki\"]}]"
+    },
+    "python": {
+        "url": "https://www.djangoproject.com",
+        "rule": "[{\"header\":[\"python\"]},{\"header\":[\"Django\"]}]"
+    },
+    "Jetty": {
+        "url": "http://www.eclipse.org/jetty",
+        "rule": "[{\"header\":[\"Server: Jetty\"]}]"
+    },
+    "mozartframework": {
+        "url": "http://mozartframework.ru",
+        "rule": "[{\"header\":[\"Mozart Framework\"]}]"
+    },
+    "Joomla": {
+        "url": "http://www.Joomla.org",
+        "rule": "[{\"body\":[\"content=\\\"Joomla\"]},{\"body\":[\"/media/system/js/core.js\",\"/media/system/js/mootools-core.js\"]}]"
+    },
+    "Roundcube": {
+        "url": "http://roundcube.net",
+        "rule": "[{\"header\":[\"roundcube_sessid\"]}]"
+    },
+    "cakephp": {
+        "url": "http://cakephp.org",
+        "rule": "[{\"header\":[\"CAKEPHP\"]}]"
+    },
+    "腾讯企业邮箱": {
+        "url": "http://exmail.qq.com/",
+        "rule": "[{\"body\":[\"/cgi-bin/getinvestigate?flowid=\"]}]"
+    },
+    "trac": {
+        "url": "http://trac.edgewall.org",
+        "rule": "[{\"body\":[\"<h1>Available Projects</h1>\"]},{\"body\":[\"wiki/TracGuide\"]},{\"header\":[\"trac_session\"]}]"
+    },
+    "awstats": {
+        "url": "http://www.awstats.org/",
+        "rule": "[{\"body\":[\"awstats.pl?config=\"]}]"
+    },
+    "gitlab": {
+        "url": "https://about.gitlab.com/",
+        "rule": "[{\"header\":[\"_gitlab_session\"]},{\"body\":[\"gon.default_issues_tracker\"]},{\"body\":[\"GitLab Community Edition\"]}]"
+    },
+    "mikrotik": {
+        "url": "http://www.mikrotik.com/",
+        "rule": "[{\"title\":[\"RouterOS\"],\"body\":[\"mikrotik\"]}]"
+    },
+    "中兴路由器": {
+        "url": "http://www.zte.com.cn/",
+        "rule": "[{\"header\":[\"Server: Mini web server 1.0 ZTE corp 2005.\"]}]"
+    },
+    "google-analytics": {
+        "url": "http://www.google.com/analytics/",
+        "rule": "[{\"body\":[\"google-analytics.com/ga.js\"]},{\"body\":[\"google-analytics.com/analytics.js\"]}]"
+    },
+    "MetInfo": {
+        "url": "http://www.metinfo.com/",
+        "rule": "[{\"title\":[\"Powered by MetInfo\"]},{\"body\":[\"content=\\\"MetInfo\"]},{\"body\":[\"powered_by_metinfo\"]},{\"body\":[\"/images/css/metinfo.css\"]}]"
+    },
+    "Horde": {
+        "url": "http://www.horde.org/apps/webmail",
+        "rule": "[{\"body\":[\"IMP: Copyright 2001-2009 The Horde Project\"]},{\"header\":[\"Horde3\"]},{\"header\":[\"Set-Cookie: Horde\"]}]"
+    },
+    "Webluker": {
+        "url": "http://www.webluker.com/",
+        "rule": "[{\"header\":[\"Webluker-Edge\"]}]"
+    },
+    "安全狗": {
+        "url": "http://www.safedog.cn/",
+        "rule": "[{\"header\":[\"WAF/2.0\"]}]"
+    },
+    "ALCASAR": {
+        "url": "http://www.alcasar.net",
+        "rule": "[{\"body\":[\"valoriserDiv5\"]}]"
+    },
+    "MediaWiki": {
+        "url": "http://www.mediawiki.org/wiki/MediaWiki",
+        "rule": "[{\"body\":[\"generator\\\" content=\\\"MediaWiki\"]},{\"body\":[\"/wiki/images/6/64/Favicon.ico\"]},{\"body\":[\"Powered by MediaWiki\"]}]"
+    },
+    "cpanel": {
+        "url": "http://cpanel.net",
+        "rule": "[{\"header\":[\"cprelogin:\"]}]"
+    },
+    "OA(a8/seeyon/ufida)": {
+        "url": "http://yongyougd.com/productsview88.html",
+        "rule": "[{\"body\":[\"/seeyon/USER-DATA/IMAGES/LOGIN/login.gif\"]}]"
+    },
+    "JQuery": {
+        "url": "http://jquery.com/",
+        "rule": "[{\"body\":[\"jquery\"]}]"
+    },
+    "dayrui系列产品": {
+        "url": "http://www.dayrui.com/product/",
+        "rule": "[{\"header\":[\"dr_ci_session\"]},{\"body\":[\"dayrui/statics\"]}]"
+    },
+    "深信服ssl-vpn": {
+        "url": "http://www.sangfor.com.cn/product/ssl_vpn/outline.html",
+        "rule": "[{\"body\":[\"login_psw.csp\"]},{\"header\":[\"TWFID\"]}]"
+    },
+    "Restlet-Framework": {
+        "url": "https://github.com/restlet/restlet-framework-java",
+        "rule": "[{\"header\":[\"Restlet-Framework\"]}]"
+    },
+    "DedeCMS": {
+        "url": "http://www.dedecms.com/",
+        "rule": "[{\"body\":[\"Power by DedeCms\"]},{\"body\":[\"Powered by\",\"http://www.dedecms.com/\",\"DedeCMS\"]},{\"body\":[\"/templets/default/style/dedecms.css\"]}]"
+    },
+    "PrestaShop": {
+        "url": "http://www.prestashop.com",
+        "rule": "[{\"header\":[\"PrestaShop\"]},{\"body\":[\"Shop powered by PrestaShop\"]}]"
+    },
+    "360站长平台": {
+        "url": "http://zhanzhang.so.com/",
+        "rule": "[{\"body\":[\"360-site-verification\"]}]"
+    },
+    "uPlusFtp": {
+        "url": "http://www.erisesoft.com/cn/uplusftp.htm",
+        "rule": "[{\"header\":[\"uPlusFtp\"]}]"
+    },
+    "Macrec_DVR": {
+        "url": "http://macrec.co",
+        "rule": "[{\"title\":[\"Macrec DVR\"]}]"
+    },
+    "Adiscon_LogAnalyzer": {
+        "url": "http://loganalyzer.adiscon.com",
+        "rule": "[{\"title\":[\"Adiscon LogAnalyzer\"]},{\"body\":[\"Adiscon LogAnalyzer\",\"Adiscon GmbH\"]}]"
+    },
+    "FOXI BIZzz": {
+        "url": "http://foxi.biz",
+        "rule": "[{\"header\":[\"X-Powered-Cms: FOXI BIZzz\"]}]"
+    },
+    "Zimbra": {
+        "url": "http://www.zimbra.com",
+        "rule": "[{\"header\":[\"ZM_TEST\"]}]"
+    },
+    "gunicorn": {
+        "url": "http://gunicorn.org",
+        "rule": "[{\"header\":[\"gunicorn\"]}]"
+    },
+    "ICEFLOW_VPN": {
+        "url": "http://www.iceflow.cn/",
+        "rule": "[{\"header\":[\"Server: ICEFLOW\"]}]"
+    },
+    "EnterCRM": {
+        "url": "http://www.entersoft.cn/ProductView.asp?ID=23&SortID=131",
+        "rule": "[{\"body\":[\"EnterCRM\"]}]"
+    },
+    "Maticsoft_Shop_动软商城": {
+        "url": "http://www.maticsoft.com/Products.aspx#shop",
+        "rule": "[{\"body\":[\"Maticsoft Shop\"]},{\"body\":[\"maticsoft\",\"/Areas/Shop/\"]}]"
+    },
+    "Webmin": {
+        "url": "http://www.webmin.cn",
+        "rule": "[{\"title\":[\"Login to Webmin\"]},{\"body\":[\"Webmin server on\"]}]"
+    },
+    "phpwind": {
+        "url": "http://www.phpwind.net/",
+        "rule": "[{\"title\":[\"Powered by phpwind\"]},{\"body\":[\"content=\\\"phpwind\"]}]"
+    },
+    "Dnnoutputcache": {
+        "url": "http://www.dnnsoftware.com/",
+        "rule": "[{\"header\":[\"Dnnoutputcache\"]}]"
+    },
+    "JQuery-UI": {
+        "url": "http://jqueryui.com",
+        "rule": "[{\"body\":[\"jquery-ui\"]}]"
+    },
+    "mod_fastcgi": {
+        "url": "http://www.fastcgi.com/mod_fastcgi/docs/mod_fastcgi.html",
+        "rule": "[{\"header\":[\"mod_fastcgi\"]}]"
+    },
+    "doubleclick_ad": {
+        "url": "http://www.google.com/doubleclick/",
+        "rule": "[{\"body\":[\"ad.doubleclick.net\"]}]"
+    },
+    "Npoint": {
+        "url": "http://www.npointhost.com/",
+        "rule": "[{\"title\":[\"Powered by Npoint\"]}]"
+    },
+    "SHOUTcast": {
+        "url": "http://www.shoutcast.com",
+        "rule": "[{\"title\":[\"SHOUTcast Administrator\"]}]"
+    },
+    "ColdFusion": {
+        "url": "http://adobe.com/products/coldfusion-family.html",
+        "rule": "[{\"body\":[\"/cfajax/\"]},{\"header\":[\"CFTOKEN\"]},{\"body\":[\"ColdFusion.Ajax\"]},{\"body\":[\"cdm\"]}]"
+    },
+    "yui": {
+        "url": "http://yuilibrary.com",
+        "rule": "[{\"body\":[\"yui.js\"]},{\"body\":[\"yui.min.js\"]}]"
+    },
+    "hishop": {
+        "url": "http://www.hishop.com.cn",
+        "rule": "[{\"body\":[\"hishop.plugins.openid\"]},{\"body\":[\"Hishop development team\"]}]"
+    },
+    "elasticsearch": {
+        "url": "http://www.elasticsearch.org/",
+        "rule": "[{\"body\":[\"You Know, for Search\"]},{\"header\":[\"application/json\"],\"body\":[\"build_hash\"]}]"
+    },
+    "FortiGuard": {
+        "url": "http://www.fortiguard.com/static/webfiltering.html",
+        "rule": "[{\"body\":[\"FortiGuard Web Filtering\"]},{\"title\":[\"Web Filter Block Override\"]},{\"body\":[\"/XX/YY/ZZ/CI/MGPGHGPGPFGHCDPFGGOGFGEH\"]}]"
+    },
+    "ExpressionEngine": {
+        "url": "https://ellislab.com/expressionengine/",
+        "rule": "[{\"header\":[\"exp_tracker\"]}]"
+    },
+    "无忧购物系统ASP通用版": {
+        "url": "http://www.gzwyshop.com/Pdt_zz.asp",
+        "rule": "[{\"body\":[\"images/loginh2.gif\",\"nsort.asp?sort_id=\"]}]"
+    },
+    "3DCART": {
+        "url": "http://www.3dcart.com",
+        "rule": "[{\"header\":[\"X-Powered-By: 3DCART\"]}]"
+    },
+    "mod_auth_pam": {
+        "url": "http://pam.sourceforge.net/mod_auth_pam",
+        "rule": "[{\"header\":[\"mod_auth_pam\"]}]"
+    },
+    "Play-Framework": {
+        "url": "http://www.playframework.com",
+        "rule": "[{\"header\":[\"Play! Framework\"]}]"
+    },
+    "huawei_auth_server": {
+        "url": "http://www.huawei.com/",
+        "rule": "[{\"body\":[\"75718C9A-F029-11d1-A1AC-00C04FB6C223\"]}]"
+    },
+    "MDaemon": {
+        "url": "http://www.altn.com/Products/MDaemon-Email-Server-Windows/",
+        "rule": "[{\"body\":[\"/WorldClient.dll?View=Main\"]}]"
+    },
+    "一采通": {
+        "url": "http://www.1caitong.com",
+        "rule": "[{\"body\":[\"/custom/GroupNewsList.aspx?GroupId=\"]}]"
+    },
+    "bacula-web": {
+        "url": "http://www.bacula-web.org",
+        "rule": "[{\"title\":[\"Webacula\"]},{\"title\":[\"Bacula Web\"]},{\"title\":[\"Bacula-Web\"]}]"
+    },
+    "easypanel": {
+        "url": "http://www.kanglesoft.com/forum.php?gid=50",
+        "rule": "[{\"body\":[\"/vhost/view/default/style/login.css\"]}]"
+    },
+    "DnP Firewall": {
+        "url": "http://ipv6.google.com.hk/search?q=DnP+Firewall",
+        "rule": "[{\"body\":[\"Powered by DnP Firewall\"]},{\"body\":[\"dnp_firewall_redirect\"]}]"
+    },
+    "wordpress_qTranslate": {
+        "url": "http://www.qianqin.de/qtranslate/",
+        "rule": "[{\"header\":[\"qtrans_cookie_test\"]}]"
+    },
+    "MaticsoftSNS_动软分享社区": {
+        "url": "http://sns.maticsoft.com",
+        "rule": "[{\"body\":[\"MaticsoftSNS\"]},{\"body\":[\"maticsoft\",\"/Areas/SNS/\"]}]"
+    },
+    "ASP": {
+        "url": "http://www.iis.net/",
+        "rule": "[{\"header\":[\"X-Powered-By: ASP\"]}]"
+    },
+    "天融信VPN": {
+        "url": "http://www.topsec.com.cn/aqcp/bjaq/xnzwvpn/ipsecvpnxlcp/index.htm",
+        "rule": "[{\"header\":[\"TopWebServer\"]},{\"header\":[\"topsecsvportalname\"]}]"
+    },
+    "SiteServer": {
+        "url": "http://www.siteserver.cn/",
+        "rule": "[{\"body\":[\"Powered by\",\"http://www.siteserver.cn\",\"SiteServer CMS\"]},{\"title\":[\"Powered by SiteServer CMS\"]},{\"body\":[\"T_系统首页模板\"]},{\"body\":[\"siteserver\",\"sitefiles\"]}]"
+    },
+    "Telerik Sitefinity": {
+        "url": "http://www.sitefinity.com/",
+        "rule": "[{\"body\":[\"Telerik.Web.UI.WebResource.axd\"]},{\"body\":[\"content=\\\"Sitefinity\"]}]"
+    },
+    "埃森诺网络服务质量检测系统": {
+        "url": "http://www.acsno.com.cn",
+        "rule": "[{\"title\":[\"埃森诺网络服务质量检测系统\"]}]"
+    },
+    "JEECMS": {
+        "url": "http://www.jeecms.com/",
+        "rule": "[{\"title\":[\"Powered by JEECMS\"]},{\"body\":[\"Powered by\",\"http://www.jeecms.com\",\"JEECMS\"]},{\"body\":[\"/r/cms/www/\",\"jhtml\"]}]"
+    },
+    "Munin": {
+        "url": "http://munin-monitoring.org",
+        "rule": "[{\"body\":[\"Auto-generated by Munin\"]},{\"body\":[\"munin-month.html\"]}]"
+    },
+    "Cisco_Cable_Modem": {
+        "url": "http://www.cisco.com",
+        "rule": "[{\"title\":[\"Cisco Cable Modem\"]}]"
+    },
+    "TP-LINK": {
+        "url": "http://www.tp-link.tw/products/?categoryid=201",
+        "rule": "[{\"header\":[\"TP-LINK\"]}]"
+    },
+    "anymacro": {
+        "url": "http://www.anymacro.com",
+        "rule": "[{\"header\":[\"LOGIN_KEY\"]},{\"body\":[\"document.aa.F_email\"]},{\"body\":[\"AnyWebApp\"]}]"
+    },
+    "Safe3WAF": {
+        "url": "http://www.safe3.com.cn",
+        "rule": "[{\"header\":[\"Safe3WAF\"]}]"
+    },
+    "PigCms": {
+        "url": "http://pigcms.com",
+        "rule": "[{\"header\":[\"X-Powered-By: PigCms.com\"]}]"
+    },
+    "Kerio_WinRoute_Firewall": {
+        "url": "http://winroute.ru/kerio_winroute_firewall.htm",
+        "rule": "[{\"header\":[\"Kerio WinRoute Firewall\"]},{\"body\":[\"style/bodyNonauth.css\"]}]"
+    },
+    "pagespeed": {
+        "url": "https://github.com/pagespeed",
+        "rule": "[{\"header\":[\"X-Page-Speed\"]},{\"header\":[\"X-Mod-Pagespeed\"]}]"
+    },
+    "Atmail": {
+        "url": "https://www.atmail.com",
+        "rule": "[{\"body\":[\"Powered by Atmail\"]},{\"header\":[\"atmail6\"]},{\"body\":[\"FixShowMail\"]}]"
+    },
+    "seeyoo广告机": {
+        "url": "http://www.seeyoo.cn/",
+        "rule": "[{\"body\":[\"AC_Config.js\"]}]"
+    },
+    "GlassFish": {
+        "url": "https://glassfish.java.net",
+        "rule": "[{\"header\":[\"Server: GlassFish Server\"]}]"
+    },
+    "Ultra_Electronics": {
+        "url": "http://en.wikipedia.org/wiki/NetillaOS_NetConnect_by_Northbridge_Secure_Systems_(Secure_Remote_Access_SSL_VPN)",
+        "rule": "[{\"body\":[\"/preauth/login.cgi\"]},{\"body\":[\"/preauth/style.css\"]}]"
+    },
+    "万户网络": {
+        "url": "http://www.wanhu.com.cn",
+        "rule": "[{\"body\":[\"css/css_whir.css\"]}]"
+    },
+    "ngx_openresty": {
+        "url": "http://openresty.org/cn/index.html",
+        "rule": "[{\"header\":[\"ngx_openresty\"]}]"
+    },
+    "Axis2": {
+        "url": "http://axis.apache.org/axis2/",
+        "rule": "[{\"body\":[\"axis2-web/css/axis-style.css\"]},{\"title\":[\"Axis 2 - Home\"]},{\"title\":[\"Apache-Axis\"]}]"
+    },
+    "华天动力OA(OA8000)": {
+        "url": "http://www.oa8000.com",
+        "rule": "[{\"body\":[\"/OAapp/WebObjects/OAapp.woa\"]}]"
+    },
+    "iDVR": {
+        "url": "http://ipv6.google.com.hk/#newwindow=1&q=idvr",
+        "rule": "[{\"header\":[\"Server: iDVRhttpSvr\"]}]"
+    },
+    "Allegro-Software-RomPager": {
+        "url": "http://www.allegrosoft.com/embedded-web-server",
+        "rule": "[{\"header\":[\"Allegro-Software-RomPager\"]}]"
+    },
+    "LANMP一键安装包": {
+        "url": "http://www.wdlinux.cn/",
+        "rule": "[{\"title\":[\"LANMP一键安装包\"]}]"
+    },
+    "Scientific-Atlanta_Cable_Modem": {
+        "url": "http://www.cisco.com/web/services/acquisitions/scientific-atlanta.html",
+        "rule": "[{\"title\":[\"Scientific-Atlanta Cable Modem\"]}]"
+    },
+    "rap": {
+        "url": "http://www.arubanetworks.com.cn/allwireless/",
+        "rule": "[{\"body\":[\"/jscripts/rap_util.js\"]}]"
+    },
+    "Bad_Behavior": {
+        "url": "http://bad-behavior.ioerror.us/",
+        "rule": "[{\"header\":[\"bb2_screener_\"]}]"
+    },
+    "ZyXEL": {
+        "url": "http://www.zyxel.com/cn/zh/products_services/service_provider-dsl_cpes.shtml?t=c",
+        "rule": "[{\"body\":[\"Forms/rpAuth_1\"]}]"
+    },
+    "openEAP": {
+        "url": "http://products.suntektech.com/products/archive.jsp?catid=327&id=269",
+        "rule": "[{\"title\":[\"openEAP_统一登录门户\"]}]"
+    },
+    "Iisexport": {
+        "url": "http://www.adsonline.co.uk/iisexport/documentation/",
+        "rule": "[{\"header\":[\"Iisexport\"]}]"
+    },
+    "Kooboocms": {
+        "url": "http://kooboo.com",
+        "rule": "[{\"header\":[\"Kooboocms\"]}]"
+    },
+    "webray": {
+        "url": "http://www.webray.com.cn/",
+        "rule": "[{\"header\":[\"Rayengine\"]},{\"header\":[\"Drivedby: RaySrv\"]}]"
+    },
+    "惠尔顿上网行为管理系统": {
+        "url": "http://www.wholeton.com/",
+        "rule": "[{\"body\":[\"updateLoginPswd.php\",\"PassroedEle\"]}]"
+    },
+    "Mod_Security": {
+        "url": "https://www.modsecurity.org",
+        "rule": "[{\"header\":[\"Mod_Security\"]}]"
+    },
+    "Piwigo": {
+        "url": "http://cn.piwigo.org",
+        "rule": "[{\"body\":[\"generator\\\" content=\\\"Piwigo\"]},{\"header\":[\"pwg_id\"]}]"
+    },
+    "Websecurity_WAF": {
+        "url": "http://ipv6.google.com.hk/#newwindow=1&q=%22Websecurity:+WAF+1.0%22&start=0",
+        "rule": "[{\"header\":[\"Websecurity: WAF 1.0\"]}]"
+    },
+    "主机宝": {
+        "url": "http://z.admin5.com/",
+        "rule": "[{\"body\":[\"您访问的是主机宝服务器默认页\"]}]"
+    },
+    "2z project": {
+        "url": "http://2zproject-cms.ru",
+        "rule": "[{\"body\":[\"Generator\\\" content=\\\"2z project\"]}]"
+    },
+    "ranzhi": {
+        "url": "http://www.ranzhi.org",
+        "rule": "[{\"body\":[\"/sys/index.php?m=user&f=login&referer=\"]},{\"header\":[\"rid\",\"theme\",\"lang\"]}]"
+    },
+    "安全宝": {
+        "url": "http://www.anquanbao.com/",
+        "rule": "[{\"header\":[\"X-Powered-By-Anquanbao\"]}]"
+    },
+    "OpenCart": {
+        "url": "http://www.opencart.com/",
+        "rule": "[{\"body\":[\"Powered By OpenCart\"]},{\"body\":[\"catalog/view/theme\"]}]"
+    },
+    "jsp": {
+        "url": "http://www.oracle.com/technetwork/java/javaee/jsp/index.html",
+        "rule": "[{\"header\":[\"jsp\"]},{\"header\":[\"Servlet\"]},{\"header\":[\"JBoss\"]},{\"header\":[\"JSESSIONID\"]}]"
+    },
+    "Sucuri": {
+        "url": "https://sucuri.net",
+        "rule": "[{\"header\":[\"Sucuri/Cloudproxy\"]}]"
+    },
+    "万户ezOFFICE": {
+        "url": "http://www.whir.net/cn/ezofficeqyb/index_52.html",
+        "rule": "[{\"header\":[\"LocLan\"]}]"
+    },
+    "擎天电子政务": {
+        "url": "http://www.skynj.com/cp/dzzw/index.htm",
+        "rule": "[{\"body\":[\"App_Themes/1/Style.css\"]},{\"body\":[\"window.location = \\\"homepages/index.aspx\"]},{\"body\":[\"homepages/content_page.aspx\"]}]"
+    },
+    "WebsiteBaker-CMS": {
+        "url": "http://www.websitebaker-cms.de",
+        "rule": "[{\"header\":[\"wb_session_id\"]}]"
+    },
+    "Acidcat_CMS": {
+        "url": "http://www.acidcat.com/",
+        "rule": "[{\"body\":[\"Start Acidcat CMS footer information\"]},{\"body\":[\"Powered by Acidcat CMS\"]}]"
+    },
+    "supesite": {
+        "url": "http://www.comsenz.com/downloads/install/supesite/",
+        "rule": "[{\"header\":[\"supe_sid\"]}]"
+    },
+    "WMSN": {
+        "url": "http://wmsn.biz/",
+        "rule": "[{\"header\":[\"X-Powered-Cms: WMSN\"]}]"
+    },
+    "Bugzilla": {
+        "url": "http://www.bugzilla.org",
+        "rule": "[{\"body\":[\"enter_bug.cgi\"]},{\"body\":[\"/cgi-bin/bugzilla/\"]},{\"header\":[\"Bugzilla_login_request_cookie\"]},{\"title\":[\"Bugzilla Main Page\"]}]"
+    },
+    "unbouncepages": {
+        "url": "http://unbouncepages.com",
+        "rule": "[{\"header\":[\"X-Unbounce-Pageid\"]}]"
+    },
+    "GeoTrust_cert": {
+        "url": "http://www.geotrust.com",
+        "rule": "[{\"body\":[\"//smarticon.geotrust.com/si.js\"]}]"
+    },
+    "Adobe_GoLive": {
+        "url": "http://www.adobe.com/products/golive",
+        "rule": "[{\"body\":[\"generator\\\" content=\\\"Adobe GoLive\"]}]"
+    },
+    "nginx_admin": {
+        "url": "http://www.nginxcp.com",
+        "rule": "[{\"header\":[\"nginx admin\"]}]"
+    },
+    "Plesk": {
+        "url": "http://sp.parallels.com/products/plesk/",
+        "rule": "[{\"header\":[\"PleskLin\"]}]"
+    },
+    "Redmine": {
+        "url": "http://www.redmine.org/",
+        "rule": "[{\"body\":[\"Redmine\",\"authenticity_token\"]}]"
+    },
+    "金和协同管理平台": {
+        "url": "http://www.jinher.com/chan-pin-ti-xi/c6",
+        "rule": "[{\"title\":[\"金和协同管理平台\"]}]"
+    },
+    "百度云加速": {
+        "url": "http://yunjiasu.baidu.com/",
+        "rule": "[{\"header\":[\"X-Server\",\"fhl\"]}]"
+    },
+    "Cactiez": {
+        "url": "http://www.cactiez.com",
+        "rule": "[{\"header\":[\"Cactiez\"]}]"
+    },
+    "d3": {
+        "url": "http://mbostock.github.com/d3/",
+        "rule": "[{\"body\":[\"/d3.min.js\"]},{\"body\":[\"/d3.v2.min.js\"]},{\"body\":[\"/d3.js\"]},{\"body\":[\"/d3.v2.js\"]}]"
+    },
+    "Chromelogger": {
+        "url": "http://craig.is/writing/chrome-logger/techspecs",
+        "rule": "[{\"header\":[\"X-Chromelogger-Data\"]}]"
+    },
+    "typo3": {
+        "url": "http://typo3.org",
+        "rule": "[{\"header\":[\"fe_typo_user\"]}]"
+    },
+    "Alternate-Protocol": {
+        "url": "http://www.chromium.org/spdy/spdy-protocol/spdy-protocol-draft2",
+        "rule": "[{\"header\":[\"Alternate-Protocol\"]}]"
+    },
+    "1und1": {
+        "url": "http://1und1.de",
+        "rule": "[{\"body\":[\"/shop/catalog/browse?sessid=\"]}]"
+    },
+    "Facebook_insights": {
+        "url": "https://developers.facebook.com/docs/platforminsights",
+        "rule": "[{\"body\":[\"fb:app_id\"]}]"
+    },
+    "bit-service": {
+        "url": "http://www.bit-service.com/index.html",
+        "rule": "[{\"body\":[\"bit-xxzs\"]},{\"body\":[\"xmlpzs/webissue.asp\"]}]"
+    },
+    "Blackboard": {
+        "url": "http://www.blackboard.com/Platforms/Learn/overview.aspx",
+        "rule": "[{\"header\":[\"X-Blackboard-Product\"]},{\"header\":[\"X-Blackboard-Appserver\"]}]"
+    },
+    "dd-wrt": {
+        "url": "http://www.dd-wrt.com/",
+        "rule": "[{\"body\":[\"dd-wrt.com\",\"load average\"]}]"
+    },
+    "网宿": {
+        "url": "http://www.chinanetcenter.com/",
+        "rule": "[{\"header\":[\"Cdn Cache Server\"]},{\"header\":[\"WS CDN Server\"]}]"
+    },
+    "Privoxy代理": {
+        "url": "http://www.privoxy.org",
+        "rule": "[{\"header\":[\"Privoxy\"]}]"
+    },
+    "wdcp管理系统": {
+        "url": "http://www.wdlinux.cn/bbs/forum-3-1.html",
+        "rule": "[{\"title\":[\"wdcp服务器\"]},{\"title\":[\"lanmp_wdcp 安装成功\"]}]"
+    },
+    "hellobar": {
+        "url": "http://hellobar.com",
+        "rule": "[{\"body\":[\"hellobar.js\"]}]"
+    },
+    "webplus": {
+        "url": "http://www.sudytech.com/",
+        "rule": "[{\"body\":[\"webplus\",\"高校网站群管理平台\"]}]"
+    },
+    "78oa": {
+        "url": "http://www.78oa.com/",
+        "rule": "[{\"body\":[\"/resource/javascript/system/runtime.min.js\"]},{\"body\":[\"license.78oa.com\"]}]"
+    },
+    "Sun[tm]": {
+        "url": "http://www.oracle.com/us/sun/index.htm",
+        "rule": "[{\"title\":[\"Sun[tm] ONE Web Server\"]},{\"header\":[\"Server: Sun-ONE-Web-Server\"]}]"
+    },
+    "BinarySec": {
+        "url": "http://www.binarysec.com/",
+        "rule": "[{\"header\":[\"X-Binarysec-Via\"]}]"
+    },
+    "Azure_ARR": {
+        "url": "http://blogs.msdn.com/b/azchina/archive/2013/11/21/disabling-arr-s-instance-affinity-in-windows-azure-web-sites.aspx",
+        "rule": "[{\"header\":[\"ARRAffinity\"]}]"
+    },
+    "Spark_Worker": {
+        "url": "http://spark.apache.org",
+        "rule": "[{\"title\":[\"Spark Worker at\"]}]"
+    },
+    "Privoxy": {
+        "url": "http://www.privoxy.org",
+        "rule": "[{\"header\":[\"Proxy-Agent: Privoxy\"]}]"
+    },
+    "disqus": {
+        "url": "http://www.disqus.com/",
+        "rule": "[{\"body\":[\"disqus_thread\"]}]"
+    },
+    "easysite": {
+        "url": "http://huilan.com/zkhl/products/platform/easysite/index.html",
+        "rule": "[{\"body\":[\"GENERATOR\\\" content=\\\"EasySite\"]},{\"body\":[\"Copyright 2009 by Huilan\"]},{\"body\":[\"_DesktopModules_PictureNews\"]},{\"header\":[\"EasySite-Compression\"]}]"
+    },
+    "P3p_enabled": {
+        "url": "http://www.w3.org/P3P/",
+        "rule": "[{\"header\":[\"P3p: CP\"]}]"
+    },
+    "jcg无线路由器": {
+        "url": "http://www.jcgcn.com",
+        "rule": "[{\"title\":[\"Wireless Router\"],\"body\":[\"http://www.jcgcn.com\"]}]"
+    },
+    "Vmware_vFabric": {
+        "url": "http://www.vmware.com/products/vfabric-tcserver/",
+        "rule": "[{\"title\":[\"vFabric\"]},{\"header\":[\"TS01efd1fa\"]}]"
+    },
+    "同城多用户商城": {
+        "url": "http://www.anxin66.com/",
+        "rule": "[{\"body\":[\"style_chaoshi\"]}]"
+    },
+    "MS-Author-Via": {
+        "url": "http://msdn.microsoft.com/en-us/library/cc250246.aspx",
+        "rule": "[{\"header\":[\"MS-Author-Via\"]}]"
+    },
+    "zabbix": {
+        "url": "http://www.zabbix.com",
+        "rule": "[{\"body\":[\"images/general/zabbix.ico\"]},{\"header\":[\"zbx_sessionid\"]}]"
+    },
+    "edvr": {
+        "url": "http://ipv6.google.com.hk/#newwindow=1&q=EDVS+edvr",
+        "rule": "[{\"title\":[\"edvs/edvr\"]}]"
+    },
+    "Magento": {
+        "url": "http://magento.com",
+        "rule": "[{\"body\":[\"body\",\"BLANK_IMG\"]},{\"body\":[\"Magento, Varien, E-commerce\"]}]"
+    },
+    "Jspxcms": {
+        "url": "http://www.jspxcms.com/",
+        "rule": "[{\"title\":[\"Powerd by Jspxcms\"]},{\"body\":[\"_files/jspxcms.css\"]}]"
+    },
+    "ThinkPHP": {
+        "url": "http://www.thinkphp.cn",
+        "rule": "[{\"header\":[\"thinkphp\"]},{\"header\":[\"think_template\"]}]"
+    },
+    "PHP": {
+        "url": "http://www.php.net",
+        "rule": "[{\"header\":[\"X-Powered-By: PHP\"]}]"
+    },
+    "acsoft": {
+        "url": "http://ac.haidilao.com/",
+        "rule": "[{\"body\":[\"login_1\\\">CA密码\"]},{\"title\":[\"费用报销系统\"]}]"
+    },
+    "DIYWAP": {
+        "url": "http://www.diywap.cn/",
+        "rule": "[{\"body\":[\"web980\",\"bannerNum\"]}]"
+    },
+    "rack-cache": {
+        "url": "http://rtomayko.github.io/rack-cache/",
+        "rule": "[{\"header\":[\"X-Rack-Cache\"]}]"
+    },
+    "ECOR": {
+        "url": "http://www.everfocus.de/",
+        "rule": "[{\"header\":[\"ECOR264\"]}]"
+    },
+    "WebKnight": {
+        "url": "https://www.aqtronix.com/webknight/",
+        "rule": "[{\"header\":[\"WebKnight\"]}]"
+    },
+    "Apache-Tomcat": {
+        "url": "http://tomcat.apache.org",
+        "rule": "[{\"header\":[\"Apache-Coyote\"]},{\"body\":[\"<HR size=\\\"1\\\" noshade=\\\"noshade\\\"><p>\"]}]"
+    },
+    "Akamai": {
+        "url": "http://akamai.com",
+        "rule": "[{\"header\":[\"X-Akamai-Transformed\"]}]"
+    },
+    "CCProxy": {
+        "url": "http://www.ccproxy.com",
+        "rule": "[{\"header\":[\"Server: CCProxy\"]}]"
+    },
+    "Jenkins": {
+        "url": "http://jenkins-ci.org",
+        "rule": "[{\"header\":[\"X-Jenkins-Session\"]},{\"body\":[\"translation.bundles\"]},{\"header\":[\"X-Jenkins\"]}]"
+    },
+    "Netscape-Enterprise": {
+        "url": "http://docs.oracle.com/cd/E19957-01/816-5648-10/es351jpg.html",
+        "rule": "[{\"header\":[\"Netscape-Enterprise\"]}]"
+    },
+    "Starlet": {
+        "url": "https://github.com/kazuho/Starlet",
+        "rule": "[{\"header\":[\"Plack::Handler::Starlet\"]}]"
+    },
+    "SamanPortal": {
+        "url": "http://www.sis-eg.com",
+        "rule": "[{\"header\":[\"sisRapid\"]}]"
+    },
+    "ACSNO网络探针": {
+        "url": "http://www.acsno.com.cn/product_view.php?id=78",
+        "rule": "[{\"title\":[\"探针管理与测试系统-登录界面\"],\"header\":[\"h123\"]}]"
+    },
+    "ecwapoa": {
+        "url": "http://www.google.com.hk/#newwindow=1&q=ecwapoa",
+        "rule": "[{\"body\":[\"ecwapoa\"]}]"
+    },
+    "ESPCMS": {
+        "url": "http://www.ecisp.cn/",
+        "rule": "[{\"title\":[\"Powered by ESPCMS\"]},{\"body\":[\"Powered by ESPCMS\"]},{\"body\":[\"infolist_fff\",\"/templates/default/style/tempates_div.css\"]}]"
+    },
+    "Dolibarr": {
+        "url": "http://www.dolibarr.org/",
+        "rule": "[{\"body\":[\"Dolibarr Development Team\"]}]"
+    },
+    "magicwinmail": {
+        "url": "http://www.magicwinmail.com",
+        "rule": "[{\"header\":[\"magicwinmail_default_theme\"]}]"
+    },
+    "用友erp-nc": {
+        "url": "http://www.yonyou.com/product/NC.aspx",
+        "rule": "[{\"body\":[\"/nc/servlet/nc.ui.iufo.login.Index\"]},{\"title\":[\"用友新世纪\"]}]"
+    },
+    "CNZZ统计": {
+        "url": "http://cnzz.com",
+        "rule": "[{\"body\":[\"cnzz.com/stat.php?id=\"]}]"
+    },
+    "AVCON6": {
+        "url": "http://www.epross.com/",
+        "rule": "[{\"title\":[\"AVCON6\"]},{\"body\":[\"language_dispose.action\"]}]"
+    },
+    "e-tiller": {
+        "url": "http://www.e-tiller.com",
+        "rule": "[{\"body\":[\"reader/view_abstract.aspx\"]}]"
+    },
+    "unknown_cms": {
+        "url": "http://ipv6.google.com.hk/#q=%22Requestsuccess4ajax%22",
+        "rule": "[{\"header\":[\"Requestsuccess4ajax\"]}]"
+    },
+    "zentao": {
+        "url": "http://www.zentao.net",
+        "rule": "[{\"body\":[\"欢迎使用禅道集成运行环境\"]},{\"body\":[\"powered by <a href='http://www.zentao.net' target='_blank'>ZenTaoPMS\"]}]"
+    },
+    "Bigcommerce": {
+        "url": "https://www.bigcommerce.com",
+        "rule": "[{\"header\":[\"SHOP_SESSION_TOKEN\"]}]"
+    },
+    "IP.Board": {
+        "url": "http://www.invisionpower.com/apps/board/",
+        "rule": "[{\"body\":[\"ipb.vars\"]}]"
+    },
+    "Cicro": {
+        "url": "http://www.cicro.com/",
+        "rule": "[{\"body\":[\"Cicro\",\"CWS\"]},{\"body\":[\"content=\\\"Cicro\"]},{\"body\":[\"index.files/cicro_userdefine.css\"]},{\"body\":[\"structure/index\",\"window.location.href=\"]}]"
+    },
+    "74cms": {
+        "url": "http://www.74cms.com/",
+        "rule": "[{\"body\":[\"content=\\\"74cms.com\"]},{\"body\":[\"content=\\\"骑士CMS\"]},{\"body\":[\"Powered by <a href=\\\"http://www.74cms.com/\\\"\"]},{\"body\":[\"/templates/default/css/common.css\",\"selectjobscategory\"]}]"
+    },
+    "苏亚星校园管理系统": {
+        "url": "http://www.suyaxing.com/product.aspx",
+        "rule": "[{\"body\":[\"/ws2004/Public/\"]}]"
+    },
+    "TRSMAS": {
+        "url": "http://www.trs.com.cn",
+        "rule": "[{\"header\":[\"X-Mas-Server\"]}]"
+    },
+    "sugon_gridview": {
+        "url": "http://www.sugon.com/product/detail/productid/105.html",
+        "rule": "[{\"body\":[\"/common/resources/images/common/app/gridview.ico\"]}]"
+    },
+    "元年财务软件": {
+        "url": "http://www.epochsoft.com.cn",
+        "rule": "[{\"body\":[\"yuannian.css\"]},{\"body\":[\"/image/logo/yuannian.gif\"]}]"
+    },
+    "Coremail": {
+        "url": "http://www.coremail.cn/",
+        "rule": "[{\"title\":[\"/coremail/common/assets\"]},{\"title\":[\"Coremail邮件系统\"]},{\"body\":[\"coremail/common/\"]}]"
+    },
+    "AXIS 2120网络摄像头": {
+        "url": "http://www.axis.com/cn/zh-hans/products/axis-2120",
+        "rule": "[{\"title\":[\"AXIS 2120 Network Camera\"]}]"
+    },
+    "护卫神主机管理": {
+        "url": "http://www.huweishen.com",
+        "rule": "[{\"title\":[\"护卫神·主机管理系统\"]}]"
+    },
+    "squarespace建站": {
+        "url": "http://www.squarespace.com/",
+        "rule": "[{\"header\":[\"SS_MID\",\"squarespace.net\"]}]"
+    },
+    "webrick": {
+        "url": "https://rubygems.org/gems/webrick",
+        "rule": "[{\"header\":[\"webrick\"]}]"
+    },
+    "蓝讯": {
+        "url": "http://www.chinacache.com/",
+        "rule": "[{\"header\":[\"Powered-By-ChinaCache\"]}]"
+    },
+    "EdmWebVideo": {
+        "url": "http://www.baidu.com/s?wd=EdmWebVideo",
+        "rule": "[{\"title\":[\"EdmWebVideo\"]}]"
+    },
+    "WishOA": {
+        "url": "http://www.wishtech.com.cn",
+        "rule": "[{\"body\":[\"WishOA_WebPlugin.js\"]}]"
+    },
+    "globalsign_cert": {
+        "url": "http://cn.globalsign.com",
+        "rule": "[{\"body\":[\"//seal.globalsign.com/SiteSeal\"]}]"
+    },
+    "chanzhi": {
+        "url": "http://www.chanzhi.org",
+        "rule": "[{\"body\":[\"chanzhi.js\"]},{\"header\":[\"Set-Cookie: frontsid\"]},{\"body\":[\"poweredBy'><a href='http://www.chanzhi.org\"]}]"
+    },
+    "SMA_Sunny_Webbox": {
+        "url": "http://www.sma-america.com/en_US/products/monitoring-systems/sunny-webbox.html",
+        "rule": "[{\"title\":[\"SMA Sunny Webbox\"]},{\"header\":[\"Server: WebBox-20\"]}]"
+    },
+    "捷点JCMS": {
+        "url": "http://www.jcms.com.cn/",
+        "rule": "[{\"body\":[\"Publish By JCms2010\"]}]"
+    },
+    "锐捷应用控制引擎": {
+        "url": "http://www.ruijie.com.cn/Product/Gateway/RG-ACE/RG-ACE",
+        "rule": "[{\"body\":[\"window.open(\\\"/login.do\\\",\\\"airWin\"]},{\"title\":[\"锐捷应用控制引擎\"]}]"
+    },
+    "IPFire": {
+        "url": "http://www.ipfire.org",
+        "rule": "[{\"header\":[\"IPFire - Restricted\"]}]"
+    },
+    "360网站卫士": {
+        "url": "http://wangzhan.360.cn/",
+        "rule": "[{\"header\":[\"360wzb\"]}]"
+    },
+    "LiteSpeed_Web_Admin_Console": {
+        "url": "http://www.litespeedtech.com",
+        "rule": "[{\"title\":[\"LiteSpeed Web Admin Console\"]},{\"header\":[\"LSWSWEBUI\"]}]"
+    },
+    "mod_bwlimited": {
+        "url": "http://ipv6.google.com.hk/search?q=mod_bwlimited",
+        "rule": "[{\"header\":[\"mod_bwlimited\"]}]"
+    },
+    "reviewboard": {
+        "url": "https://www.reviewboard.org",
+        "rule": "[{\"body\":[\"/static/rb/images/delete\"]},{\"header\":[\"rbsessionid\"]}]"
+    },
+    "微普外卖点餐系统": {
+        "url": "http://diancan365.com/",
+        "rule": "[{\"body\":[\"Author\\\" content=\\\"微普外卖点餐系统\"]},{\"body\":[\"Powered By 点餐系统\"]},{\"body\":[\"userfiles/shoppics/\"]}]"
+    },
+    "shopify": {
+        "url": "http://www.shopify.com",
+        "rule": "[{\"header\":[\"X-Shopid:\"]}]"
+    },
+    "OA企业智能办公自动化系统": {
+        "url": "http://down.chinaz.com/soft/23657.htm",
+        "rule": "[{\"body\":[\"input name=\\\"S1\\\" type=\\\"image\\\"\",\"count/mystat.asp\"]}]"
+    },
+    "zikula_framework": {
+        "url": "http://zilkula.org",
+        "rule": "[{\"header\":[\"ZIKULASID1\"]},{\"header\":[\"ZIKULASID2\"]},{\"header\":[\"ZIKULASID3\"]}]"
+    },
+    "ThinkSNS": {
+        "url": "http://www.thinksns.com",
+        "rule": "[{\"body\":[\"_static/image/favicon.ico\"]},{\"header\":[\"T3_lang\"]}]"
+    },
+    "Resin": {
+        "url": "http://caucho.com",
+        "rule": "[{\"header\":[\"Server: Resin\"]}]"
+    },
+    "Puppet_Node_Manager": {
+        "url": "http://puppetlabs.com",
+        "rule": "[{\"title\":[\"Puppet Node Manager\"]}]"
+    },
+    "通达OA": {
+        "url": "http://www.tongda2000.com/",
+        "rule": "[{\"body\":[\"<link rel=\\\"shortcut icon\\\" href=\\\"/images/tongda.ico\\\" />\"]},{\"body\":[\"OA提示：不能登录OA\",\"紧急通知：今日10点停电\"]},{\"body\":[\"Office Anywhere 2013\"]}]"
+    },
+    "ruby": {
+        "url": "http://rubyonrails.org",
+        "rule": "[{\"header\":[\"ruby\"]},{\"header\":[\"WEBrick\"]},{\"header\":[\"Phusion\"]},{\"header\":[\"Mongrel\"]},{\"header\":[\"X-Rack-Cache\"]}]"
+    },
+    "ganglia": {
+        "url": "http://ganglia.info",
+        "rule": "[{\"body\":[\"ganglia_form.submit\"]},{\"header\":[\"gs=unspecified\"]}]"
+    },
+    "weebly": {
+        "url": "http://www.weebly.com/",
+        "rule": "[{\"header\":[\"intern.weebly.net\"]},{\"body\":[\"wsite-page-index\"]}]"
+    },
+    "DVR camera": {
+        "url": "http://www.dvrnet.org/",
+        "rule": "[{\"title\":[\"DVR WebClient\"]}]"
+    },
+    "adinfinity": {
+        "url": "http://adinfinity.com.au",
+        "rule": "[{\"body\":[\"adinfinity.com.au/adapt\"]}]"
+    },
+    "Aspnetmvc": {
+        "url": "http://www.asp.net/mvc",
+        "rule": "[{\"header\":[\"Aspnetmvc\"]}]"
+    },
+    "kesionCMS": {
+        "url": "http://www.kesion.com/",
+        "rule": "[{\"body\":[\"/ks_inc/common.js\"]},{\"body\":[\"publish by KesionCMS\"]}]"
+    },
+    "ezOFFICE": {
+        "url": "http://www.whir.net/cn/ezofficeqyb/index_52.html",
+        "rule": "[{\"title\":[\"Wanhu ezOFFICE\"]},{\"body\":[\"EZOFFICEUSERNAME\"]}]"
+    },
+    "pmway_E4_crm": {
+        "url": "http://www.pmway.com/",
+        "rule": "[{\"title\":[\"E4\",\"CRM\"]}]"
+    },
+    "Swiftlet": {
+        "url": "http://swiftlet.org",
+        "rule": "[{\"header\":[\"Swiftlet\"]}]"
+    },
+    "易普拉格科研管理系统": {
+        "url": "http://www.e-plugger.com/",
+        "rule": "[{\"body\":[\"lan12-jingbian-hong\"]},{\"body\":[\"科研管理系统，北京易普拉格科技\"]}]"
+    },
+    "Oraclea-DMS": {
+        "url": "http://docs.oracle.com/cd/E21764_01/core.1111/e10108/dms.htm#ASPER295",
+        "rule": "[{\"header\":[\"X-Oracle-Dms-Ecid\"]}]"
+    },
+    "Comcast_Business_Gateway": {
+        "url": "http://business.comcast.com/",
+        "rule": "[{\"body\":[\"Comcast Business Gateway\"]}]"
+    },
+    "Synology_NAS": {
+        "url": "http://www.synology.com",
+        "rule": "[{\"header\":[\"webman/index.cgi\"]},{\"body\":[\"modules/BackupReplicationApp\"]}]"
+    },
+    "360主机卫士": {
+        "url": "http://webscan.360.cn/guard/",
+        "rule": "[{\"header\":[\"X-Safe-Firewall\"]}]"
+    },
+    "CEMIS": {
+        "url": "http://www.reachway.com.cn/web/cemis/introduction.aspx",
+        "rule": "[{\"title\":[\"综合项目管理系统登录\"],\"body\":[\"<div id=\\\"demo\\\" style=\\\"overflow:hidden\"]}]"
+    },
+    "云因网上书店": {
+        "url": "http://www.yunyin.com/product/product12.cfm?iType=12&sProName=%D4%C6%D2%F2%CD%F8%D5%BE%CF%B5%CD%B3",
+        "rule": "[{\"body\":[\"main/building.cfm\"]},{\"body\":[\"href=\\\"../css/newscomm.css\"]}]"
+    },
+    "NOALYSS": {
+        "url": "http://www.phpcompta.org",
+        "rule": "[{\"title\":[\"NOALYSS\"]}]"
+    },
+    "ABO_CMS": {
+        "url": "http://www.abocms.com/",
+        "rule": "[{\"header\":[\"a-powered-by\"]}]"
+    },
+    "nodejs": {
+        "url": "http://nodejs.org",
+        "rule": "[{\"header\":[\"X-Powered-By: Express\"]},{\"header\":[\"pump.io\"]},{\"header\":[\"node.js\"]}]"
+    },
+    "mod_rails": {
+        "url": "http://phusionpassenger.com",
+        "rule": "[{\"header\":[\"mod_rails\"]}]"
+    },
+    "Discuz": {
+        "url": "http://www.discuz.net/",
+        "rule": "[{\"title\":[\"Powered by Discuz\"]},{\"body\":[\"content=\\\"Discuz\"]},{\"body\":[\"discuz_uid\",\"portal.php?mod=view\"]},{\"body\":[\"Powered by <strong><a href=\\\"http://www.discuz.net\"]}]"
+    },
+    "Polycom": {
+        "url": "http://support.polycom.com/PolycomService/support/us/support/video/index.html",
+        "rule": "[{\"title\":[\"Polycom\"],\"body\":[\"kAllowDirectHTMLFileAccess\"]}]"
+    },
+    "SubrionCMS": {
+        "url": "http://www.subrion.com",
+        "rule": "[{\"header\":[\"X-Powered-Cms: Subrion CMS\"]}]"
+    },
+    "Z-BlogPHP": {
+        "url": "http://www.zblogcn.com",
+        "rule": "[{\"header\":[\"Product: Z-BlogPHP\"]}]"
+    },
+    "Kibana": {
+        "url": "http://www.elasticsearch.org/overview/kibana/",
+        "rule": "[{\"title\":[\"Kibana\"]},{\"body\":[\"kbnVersion\"]}]"
+    },
+    "Hikvision": {
+        "url": "http://www.hikvision.com/",
+        "rule": "[{\"header\":[\"Hikvision\"]}]"
+    },
+    "Nagios": {
+        "url": "http://www.nagios.org",
+        "rule": "[{\"header\":[\"Nagios access\"]},{\"body\":[\"/nagios/cgi-bin/status.cgi\"]}]"
+    },
+    "网神VPN": {
+        "url": "http://www.legendsec.com",
+        "rule": "[{\"body\":[\"admin/js/virtual_keyboard.js\"]},{\"header\":[\"host_for_cookie\"]}]"
+    },
+    "CISCO_VPN": {
+        "url": "http://www.cisco.com/",
+        "rule": "[{\"header\":[\"webvpn\"]}]"
+    },
+    "帕拉迪统一安全管理和综合审计系统": {
+        "url": "http://www.pldsec.com/",
+        "rule": "[{\"body\":[\"module/image/pldsec.css\"]}]"
+    },
+    "易瑞授权访问系统": {
+        "url": "http://www.infcn.com.cn/iras/752.jhtml",
+        "rule": "[{\"body\":[\"/authjsp/login.jsp\"]},{\"body\":[\"FE0174BB-F093-42AF-AB20-7EC621D10488\"]}]"
+    },
+    "PineApp": {
+        "url": "http://www.pineapp.com",
+        "rule": "[{\"title\":[\"PineApp WebAccess - Login\"]},{\"body\":[\"/admin/css/images/pineapp.ico\"]}]"
+    },
+    "Adblock": {
+        "url": "https://adblockplus.org",
+        "rule": "[{\"header\":[\"X-Adblock-Key\"]}]"
+    },
+    "Aethra_Telecommunications_Operating_System": {
+        "url": "http://www.aethra.com",
+        "rule": "[{\"header\":[\"atos\"]}]"
+    },
+    "Dorado": {
+        "url": "http://bstek.com/product/dorado7_introduce",
+        "rule": "[{\"title\":[\"Dorado Login Page\"]}]"
+    },
+    "APC_Management": {
+        "url": "http://www.apc.com/",
+        "rule": "[{\"header\":[\"APC Management Card\"]},{\"body\":[\"This object on the APC Management Web Server is protected\"]}]"
+    },
+    "lemis管理系统": {
+        "url": "http://www.baidu.com/s?wd=lemis%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F",
+        "rule": "[{\"body\":[\"lemis.WEB_APP_NAME\"]}]"
+    },
+    "Synology_DiskStation": {
+        "url": "https://www.synology.com",
+        "rule": "[{\"title\":[\"Synology DiskStation\"]},{\"body\":[\"SYNO.SDS.Session\"]}]"
+    },
+    "cloudflare": {
+        "url": "https://www.cloudflare.com/",
+        "rule": "[{\"header\":[\"cloudflare-nginx\"]}]"
+    },
+    "mod_wsgi": {
+        "url": "http://code.google.com/p/modwsgi",
+        "rule": "[{\"header\":[\"mod_wsgi\"]}]"
+    },
+    "GPSweb": {
+        "url": "http://ipv6.google.com.hk/#newwindow=1&q=GPSweb",
+        "rule": "[{\"title\":[\"GPSweb\"]}]"
+    },
+    "H3C": {
+        "url": "http://www.h3c.com.cn/",
+        "rule": "[{\"header\":[\"H3C-Miniware-Webs\"]},{\"title\":[\"Web user login\"],\"body\":[\"nLanguageSupported\"]}]"
+    },
+    "ruvar": {
+        "url": "http://gov.ruvar.com/",
+        "rule": "[{\"body\":[\"<iframe id=\\\"ifrm\\\" width=\\\"100%\\\" height=\\\"100%\\\" frameborder=\\\"0\\\" scrolling=\\\"no\\\" src=\\\"/include/login.aspx\"]}]"
+    },
+    "VisualSVN": {
+        "url": "http://www.visualsvn.com/server/",
+        "rule": "[{\"title\":[\"VisualSVN Server\"]}]"
+    },
+    "Powercdn": {
+        "url": "http://www.powercdn.com",
+        "rule": "[{\"header\":[\"Powercdn\"]}]"
+    },
+    "ujian": {
+        "url": "http://www.ujian.cc/",
+        "rule": "[{\"body\":[\"ujian.cc/code/ujian.js\"]}]"
+    },
+    "MOBOTIX_Camera": {
+        "url": "http://www.mobotix.com/",
+        "rule": "[{\"header\":[\"MOBOTIX Camera\"]}]"
+    },
+    "UFIDA_NC": {
+        "url": "http://www.yonyou.com/product/NC.aspx",
+        "rule": "[{\"body\":[\"UFIDA\",\"logo/images/\"]}]"
+    },
+    "一启快": {
+        "url": "http://www.yiqikuai.com/",
+        "rule": "[{\"header\":[\"yiqikuai.com\"]}]"
+    },
+    "管理易": {
+        "url": "http://www.ekingcn.com/",
+        "rule": "[{\"body\":[\"管理易\",\"minierp\"]}]"
+    },
+    "awstats_misc_tracker": {
+        "url": "http://www.awstats.org",
+        "rule": "[{\"body\":[\"/js/awstats_misc_tracker.js\"]}]"
+    },
+    "FreeboxOS": {
+        "url": "http://www.free.fr/assistance/5056.html",
+        "rule": "[{\"title\":[\"Freebox OS\"]},{\"body\":[\"logo_freeboxos\"]}]"
+    },
+    "opennms": {
+        "url": "http://www.opennms.com",
+        "rule": "[{\"header\":[\"/opennms/login.jsp\"]},{\"body\":[\"/css/gwt-asset.css\"]},{\"body\":[\"OpenNMS® is a registered trademark of\"]}]"
+    },
+    "Communique": {
+        "url": "http://en.wikipedia.org/wiki/InSoft_Inc.#Communique",
+        "rule": "[{\"header\":[\"Communique\"]}]"
+    },
+    "6kbbs": {
+        "url": "http://www.6kbbs.com",
+        "rule": "[{\"body\":[\"Powered by 6kbbs\"]},{\"body\":[\"generator\\\" content=\\\"6KBBS\"]}]"
+    },
+    "iAPPS": {
+        "url": "http://www.iapps.com/products/iapps-content-manager",
+        "rule": "[{\"header\":[\"iAPPSCookie\"]}]"
+    },
+    "milu_seotool": {
+        "url": "http://addon.discuz.com/?ac=item&from=api_1&id=milu_seotool.plugin",
+        "rule": "[{\"body\":[\"plugin.php?id=milu_seotool\"]}]"
+    },
+    "iredadmin(Roundcube?)": {
+        "url": "http://www.iredmail.com",
+        "rule": "[{\"header\":[\"iredadmin\"]},{\"body\":[\"iredadmin\"]}]"
+    },
+    "Tengine": {
+        "url": "http://tengine.taobao.org",
+        "rule": "[{\"header\":[\"Server: Tengine\"]}]"
+    },
+    "Centreon": {
+        "url": "http://www.centreon.com",
+        "rule": "[{\"body\":[\"Generator\\\" content=\\\"Centreon - Copyright\"]},{\"title\":[\"Centreon - IT & Network Monitoring\"]}]"
+    },
+    "irecms": {
+        "url": "http://www.irecms.de",
+        "rule": "[{\"header\":[\"IRe.CMS\"]}]"
+    },
+    "HAProxy_Report": {
+        "url": "http://haproxy.com",
+        "rule": "[{\"body\":[\"Statistics Report for HAProxy\"]}]"
+    },
+    "trs_wcm": {
+        "url": "http://www.trs.com.cn/product/product-wcm.html",
+        "rule": "[{\"body\":[\"/wcm/app/js\"]},{\"body\":[\"0;URL=/wcm\"]},{\"body\":[\"window.location.href = \\\"/wcm\\\";\"]},{\"body\":[\"forum.trs.com.cn\",\"wcm\"]},{\"body\":[\"/wcm\\\" target=\\\"_blank\\\">网站管理\"]},{\"body\":[\"/wcm\\\" target=\\\"_blank\\\">管理\"]}]"
+    },
+    "GSE": {
+        "url": "https://code.google.com/p/opengse/",
+        "rule": "[{\"header\":[\"Server: GSE\"]}]"
+    },
+    "phpbb": {
+        "url": "http://www.phpbb.com/",
+        "rule": "[{\"header\":[\"Set-Cookie: phpbb3_\"]},{\"header\":[\"HttpOnly, phpbb3_\"]},{\"body\":[\"&copy;\",\"http://www.longluntan.com/zh/phpbb/\",\"phpBB\"]},{\"body\":[\"phpBB Group\\\" /\\>\"]},{\"body\":[\"START QUICK HACK - phpBB Statistics MOD\"]}]"
+    },
+    "sitecore": {
+        "url": "http://www.sitecore.net",
+        "rule": "[{\"header\":[\"Sitecore CMS\"]}]"
+    },
+    "正方教务管理系统": {
+        "url": "http://www.zfsoft.com/type_jx/040000011001.html",
+        "rule": "[{\"body\":[\"style/base/jw.css\"]}]"
+    },
+    "Linksys_SPA_Configuration": {
+        "url": "http://www.linksys.com",
+        "rule": "[{\"title\":[\"Linksys SPA Configuration\"]}]"
+    },
+    "oracle_applicaton_server": {
+        "url": "https://www.oracle.com/",
+        "rule": "[{\"body\":[\"OraLightHeaderSub\"]}]"
+    },
+    "TurboMail": {
+        "url": "http://www.turbomail.org/",
+        "rule": "[{\"body\":[\"Powered by TurboMail\"]},{\"body\":[\"wzcon1 clearfix\"]},{\"title\":[\"TurboMail邮件系统\"]}]"
+    },
+    "mod_perl": {
+        "url": "http://perl.apache.org",
+        "rule": "[{\"header\":[\"mod_perl\"]}]"
+    },
+    "护卫神网站安全系统": {
+        "url": "http://www.huweishen.com",
+        "rule": "[{\"title\":[\"护卫神.网站安全系统\"]}]"
+    },
+    "Splunk": {
+        "url": "http://www.splunk.com",
+        "rule": "[{\"body\":[\"Splunk.util.normalizeBoolean\"]}]"
+    },
+    "e-Learning": {
+        "url": "http://nvcc.cneln.net",
+        "rule": "[{\"body\":[\"method=\\\"post\\\" action=\\\"/eln3_asp/login.do\"]}]"
+    },
+    "gocdn": {
+        "url": "http://baidu.com/?q=gocdn",
+        "rule": "[{\"header\":[\"GOCDN\"]}]"
+    },
+    "Cacti": {
+        "url": "http://www.cacti.net",
+        "rule": "[{\"header\":[\"Set-Cookie: Cacti=\"]},{\"title\":[\"Login to Cacti\"]},{\"body\":[\"/plugins/jqueryskin/include/login.css\"]}]"
+    },
+    "Drupal": {
+        "url": "http://www.drupal.org/",
+        "rule": "[{\"header\":[\"X-Generator: Drupal\"]},{\"body\":[\"content=\\\"Drupal\"]},{\"body\":[\"jQuery.extend(Drupal.settings\"]},{\"body\":[\"/sites/default/files/\",\"content=\\\"/sites/all/modules/\",\"/sites/all/themes/\"]}]"
+    },
+    "Mercurial": {
+        "url": "http://mercurial.selenic.com/",
+        "rule": "[{\"title\":[\"Mercurial repositories index\"]}]"
+    },
+    "recaptcha": {
+        "url": "http://www.google.com/recaptcha/intro/index.html",
+        "rule": "[{\"body\":[\"recaptcha_ajax.js\"]}]"
+    },
+    "uyan": {
+        "url": "http://www.uyan.cc/",
+        "rule": "[{\"body\":[\"uyan.cc/code/uyan.js\"]}]"
+    },
+    "Diferior": {
+        "url": "http://diferior.com",
+        "rule": "[{\"body\":[\"Powered by Diferior\"]}]"
+    },
+    "Z-Blog": {
+        "url": "http://www.zblogcn.com/",
+        "rule": "[{\"body\":[\"strBatchView\",\"str00\"]},{\"body\":[\"Powered By Z-Blog\"]},{\"body\":[\"generator\\\" content=\\\"Z-Blog\"]},{\"header\":[\"Product: Z-Blog\"]}]"
+    },
+    "DouPHP": {
+        "url": "http://www.douco.com/",
+        "rule": "[{\"body\":[\"Powered by DouPHP\"]},{\"body\":[\"controlBase\",\"indexLeft\",\"recommendProduct\"]}]"
+    },
+    "DI-804HV": {
+        "url": "http://www.dlink.com/xk/sq/support/product/di-804hv-broadband-vpn-router",
+        "rule": "[{\"header\":[\"DI-804HV\"]}]"
+    },
+    "techbridge": {
+        "url": "http://www.techbridge-inc.com/",
+        "rule": "[{\"body\":[\"Sorry,you need to use IE brower\"]}]"
+    },
+    "__VIEWSTATE": {
+        "url": "http://msdn.microsoft.com/en-us/library/ms972976.aspx",
+        "rule": "[{\"body\":[\"__VIEWSTATE\"]}]"
+    },
+    "lezhixing": {
+        "url": "http://202.108.154.209/datacenter/#",
+        "rule": "[{\"body\":[\"var contextPath = \\\"/datacenter\"]},{\"body\":[\"location.href=contextPath+\\\"/login/password/password.jsp\"]},{\"body\":[\"action=\\\"/datacenter/authentication/login.do\\\" method=\\\"post\"]}]"
+    },
+    "D-Link": {
+        "url": "http://www.dlink.com.hk/products/?pid=446",
+        "rule": "[{\"title\":[\"D-Link VoIP Wireless Router\"]},{\"title\":[\"D-LINK SYSTEMS\"]}]"
+    },
+    "WebObjects": {
+        "url": "http://wiki.wocommunity.org/display/WEB/Home",
+        "rule": "[{\"header\":[\"WebObjects\",\"wosid\"]}]"
+    },
+    "we7": {
+        "url": "http://www.we7.cn",
+        "rule": "[{\"body\":[\"/Widgets/WidgetCollection/\"]}]"
+    },
+    "adriver": {
+        "url": "http://adriver.ru",
+        "rule": "[{\"body\":[\"ad.adriver.ru/cgi-bin\"]}]"
+    },
+    "AirLink_modem": {
+        "url": "http://www.airLink.com",
+        "rule": "[{\"header\":[\"Modem@AirLink.com\"]}]"
+    },
+    "Wp-Super-Cache": {
+        "url": "https://wordpress.org/plugins/wp-super-cache/",
+        "rule": "[{\"header\":[\"Wp-Super-Cache\"]}]"
+    },
+    "FortiWeb": {
+        "url": "http://www.fortinet.com.tw/products/fortiweb/",
+        "rule": "[{\"header\":[\"FORTIWAFSID\"]},{\"header\":[\"FortiWeb\"]}]"
+    },
+    "SLTM32_Configuration": {
+        "url": "http://www.lgericssonipecs.com",
+        "rule": "[{\"title\":[\"SLTM32 Web Configuration Pages \"]}]"
+    },
+    "NETSurveillance": {
+        "url": "http://www.fh-net.cn/product/class/?119.html",
+        "rule": "[{\"title\":[\"NETSurveillance\"]}]"
+    },
+    "51la": {
+        "url": "http://www.51.la/",
+        "rule": "[{\"body\":[\"js.users.51.la\"]}]"
+    },
+    "orocrm": {
+        "url": "http://www.orocrm.com",
+        "rule": "[{\"body\":[\"/bundles/oroui/\"]}]"
+    },
+    "iWebShop": {
+        "url": "http://www.jooyea.cn/",
+        "rule": "[{\"body\":[\"Powered by\",\"iWebShop\"]},{\"header\":[\"iweb_safecode\"]},{\"body\":[\"/runtime/default/systemjs\"]}]"
+    },
+    "ecshop": {
+        "url": "http://www.ecshop.com/",
+        "rule": "[{\"title\":[\"Powered by ECShop\"]},{\"header\":[\"ECS_ID\"]},{\"body\":[\"content=\\\"ECSHOP\"]},{\"body\":[\"/api/cron.php\"]}]"
+    },
+    "srun3000计费认证系统": {
+        "url": "http://www.srun.com/",
+        "rule": "[{\"title\":[\"srun3000\"]}]"
+    },
+    "MuraCMS": {
+        "url": "http://www.getmura.com",
+        "rule": "[{\"header\":[\"Mura CMS\"]}]"
+    },
+    "GenieATM": {
+        "url": "http://www.genienrm.com/index.php",
+        "rule": "[{\"title\":[\"GenieATM\"]},{\"body\":[\"Copyright© Genie Networks Ltd.\"]},{\"body\":[\"defect 3531\"]}]"
+    },
+    "Fat-FreeFramework": {
+        "url": "http://fatfreeframework.com",
+        "rule": "[{\"header\":[\"Fat-Free Framework\"]}]"
+    },
+    "Kohana-Framework": {
+        "url": "http://kohanaframework.org",
+        "rule": "[{\"header\":[\"Kohana Framework\"]}]"
+    },
+    "网康 NS-ASG": {
+        "url": "http://www.netentsec.com",
+        "rule": "[{\"title\":[\"NS-ASG\"]},{\"body\":[\"commonplugin/softkeyboard.js\"]}]"
+    },
+    "360企业版": {
+        "url": "http://b.360.cn/",
+        "rule": "[{\"body\":[\"360EntInst\"]}]"
+    },
+    "phpshe": {
+        "url": "http://www.phpshe.com",
+        "rule": "[{\"body\":[\"phpshe\"]}]"
+    },
+    "phpinfo": {
+        "url": "http://www.php.net/",
+        "rule": "[{\"title\":[\"phpinfo\"],\"body\":[\"Virtual Directory Support\"]}]"
+    },
+    "Array_Networks_VPN": {
+        "url": "http://www.arraynetworks.com",
+        "rule": "[{\"body\":[\"an_util.js\"]}]"
+    },
+    "天柏在线培训/考试系统": {
+        "url": "http://www.timber2005.com/",
+        "rule": "[{\"title\":[\"连接中，请稍候\"],\"header\":[\"index.html\"]},{\"body\":[\"App_Image/PXSystem\"]},{\"body\":[\"App_Image/System\"]}]"
+    },
+    "sogou站长平台": {
+        "url": "http://zhanzhang.sogou.com/",
+        "rule": "[{\"body\":[\"sogou_site_verification\"]}]"
+    },
+    "webtrust_cert": {
+        "url": "https://cert.webtrust.org",
+        "rule": "[{\"body\":[\"https://cert.webtrust.org/ViewSeal\"]}]"
+    },
+    "天融信防火墙": {
+        "url": "http://www.topsec.com.cn",
+        "rule": "[{\"body\":[\"WEB User Interface\"]},{\"header\":[\"TopWebServer\"]}]"
+    },
+    "DVWA": {
+        "url": "http://www.dvwa.co.uk",
+        "rule": "[{\"title\":[\"Damn Vulnerable Web App\"]},{\"body\":[\"dvwa/images/login_logo.png\"]}]"
+    },
+    "UPUPW": {
+        "url": "http://www.upupw.net/",
+        "rule": "[{\"title\":[\"UPUPW环境集成包\"]}]"
+    },
+    "phpDocumentor": {
+        "url": "http://www.phpdoc.org",
+        "rule": "[{\"body\":[\"Generated by phpDocumentor\"]}]"
+    },
+    "FineCMS": {
+        "url": "http://www.dayrui.com",
+        "rule": "[{\"body\":[\"Powered by FineCMS\"]},{\"body\":[\"dayrui@gmail.com\"]},{\"body\":[\"Copyright\\\" content=\\\"FineCMS\"]}]"
+    },
+    "PHP-CGI": {
+        "url": "http://baidu.com/?q=PHP-CGI",
+        "rule": "[{\"header\":[\"PHP-CGI\"]}]"
+    },
+    "TwilightCMS": {
+        "url": "http://www.twl.ru",
+        "rule": "[{\"header\":[\"X-Powered-Cms: Twilight CMS\"]}]"
+    },
+    "JBoss": {
+        "url": "http://www.jboss.org",
+        "rule": "[{\"header\":[\"jboss\"]},{\"body\":[\"Manage this JBoss AS Instance\"]}]"
+    },
+    "IdeaWebServer": {
+        "url": "#",
+        "rule": "[{\"header\":[\"IdeaWebServer\"]}]"
+    },
+    "testlink": {
+        "url": "http://testlink.org",
+        "rule": "[{\"body\":[\"testlink_library.js\"]}]"
+    },
+    "HFS": {
+        "url": "http://www.rejetto.com/hfs/",
+        "rule": "[{\"header\":[\"Server: HFS\"]}]"
+    },
+    "SJSWS_ OiWS": {
+        "url": "http://www.oracle.com/technetwork/middleware/webtier/overview/index.html#iWS",
+        "rule": "[{\"header\":[\"Oracle-iPlanet-Web-Server\"]},{\"header\":[\"Sun-Java-System-Web-Server\"]}]"
+    },
+    "Google_AdSense": {
+        "url": "https://www.google.com/adsense",
+        "rule": "[{\"body\":[\"googlesyndication\"]}]"
+    },
+    "小蚂蚁": {
+        "url": "http://www.xiaomayi.co/",
+        "rule": "[{\"title\":[\"Powered by 小蚂蚁地方门户网站系统\"]},{\"header\":[\"AntXiaouserslogin\"]},{\"body\":[\"/Template/Ant/Css/AntHomeComm.css\"]}]"
+    },
+    "HIMS酒店云计算服务": {
+        "url": "http://www.luopan.cn",
+        "rule": "[{\"body\":[\"GB_ROOT_DIR\",\"maincontent.css\"]},{\"body\":[\"HIMS酒店云计算服务\"]}]"
+    },
+    "Storm": {
+        "url": "http://storm.apache.org",
+        "rule": "[{\"title\":[\"Storm UI\"]},{\"body\":[\"stormtimestr\"]}]"
+    },
+    "twcms": {
+        "url": "http://www.twcms.cn/",
+        "rule": "[{\"body\":[\"/twcms/theme/\",\"/css/global.css\"]}]"
+    },
+    "百度分享": {
+        "url": "http://share.baidu.com/",
+        "rule": "[{\"body\":[\"share.baidu.com/static/api/js/share.js\"]}]"
+    },
+    "SquirrelMail": {
+        "url": "http://www.squirrelmail.org",
+        "rule": "[{\"header\":[\"SQMSESSID\"]}]"
+    },
+    "mod_python": {
+        "url": "http://www.modpython.org",
+        "rule": "[{\"header\":[\"mod_python\"]}]"
+    },
+    "X-72e-Nobeian-Transfer": {
+        "url": "http://ipv6.google.com.hk/#q=%22X-72e-Nobeian-Transfe",
+        "rule": "[{\"header\":[\"X-72e-Nobeian-Transfer\"]}]"
+    },
+    "CodeIgniter": {
+        "url": "https://ellislab.com/codeigniter",
+        "rule": "[{\"header\":[\"ci_session\"]}]"
+    },
+    "易创思ecs": {
+        "url": "http://www.ecs.cn/",
+        "rule": "[{\"body\":[\"src=\\\"/Include/EcsServerApi.js\"]}]"
+    },
+    "jiathis": {
+        "url": "http://jiathis.com/",
+        "rule": "[{\"body\":[\"jiathis.com/code/jia.js\"]}]"
+    },
+    "thawte_ssl_cert": {
+        "url": "https://www.thawte.com/ssl/index.html",
+        "rule": "[{\"body\":[\"https://seal.thawte.com/getthawteseal\"]}]"
+    },
+    "o2security_vpn": {
+        "url": "http://www.o2security.net",
+        "rule": "[{\"header\":[\"client_param=install_active\"]}]"
+    },
+    "mod_antiloris": {
+        "url": "http://sourceforge.net/projects/mod-antiloris/",
+        "rule": "[{\"header\":[\"mod_antiloris\"]}]"
+    },
+    "wordpress": {
+        "url": "http://www.wordpress.com/",
+        "rule": "[{\"body\":[\"content=\\\"WordPress\"]},{\"header\":[\"X-Pingback\",\"/xmlrpc.php\"],\"body\":[\"/wp-includes/\"]}]"
+    },
+    "NetteFramework": {
+        "url": "http://nette.org",
+        "rule": "[{\"header\":[\"Nette Framework\"]}]"
+    },
+    "梭子鱼防火墙": {
+        "url": "https://www.barracuda.com/",
+        "rule": "[{\"body\":[\"a=bsf_product\\\" class=\\\"transbutton\",\"/cgi-mod/header_logo.cgi\"]}]"
+    },
+    "创星伟业校园网群": {
+        "url": "http://www.conking.com.cn",
+        "rule": "[{\"body\":[\"javascripts/float.js\",\"vcxvcxv\"]}]"
+    },
+    "yongyoufe": {
+        "url": "http://yongyougd.com/productsview88.html",
+        "rule": "[{\"title\":[\"FE协作\"]},{\"body\":[\"V_show\",\"V_hedden\"]}]"
+    },
+    "51yes": {
+        "url": "http://www.51yes.com",
+        "rule": "[{\"body\":[\"51yes.com/click.aspx\"]}]"
+    },
+    "HDWiki": {
+        "url": "http://kaiyuan.hudong.com/",
+        "rule": "[{\"title\":[\"powered by hdwiki!\"]},{\"body\":[\"content=\\\"HDWiki\"]},{\"body\":[\"http://kaiyuan.hudong.com?hf=hdwiki_copyright_kaiyuan\"]},{\"header\":[\"hd_sid=\"]}]"
+    },
+    "NetShare_VPN": {
+        "url": "http://www.zkvpn.com/",
+        "rule": "[{\"title\":[\"NetShare\",\"VPN\"]}]"
+    },
+    "i@Report": {
+        "url": "http://sanlink.com.cn",
+        "rule": "[{\"body\":[\"ESENSOFT_IREPORT_SERVER\"]},{\"body\":[\"com.sanlink.server.Login\"]},{\"body\":[\"ireportclient\"]},{\"body\":[\"css/ireport.css\"]}]"
+    },
+    "Zen Cart": {
+        "url": "http://www.zen-cart.com/",
+        "rule": "[{\"body\":[\"shopping cart program by Zen Cart\"]},{\"header\":[\"Set-Cookie: zenid=\"]}]"
+    },
+    "EasywebCMS": {
+        "url": "http://www.eaysweb.se",
+        "rule": "[{\"header\":[\"Easyweb CMS\"]}]"
+    },
+    "逐浪zoomla": {
+        "url": "http://www.zoomla.cn",
+        "rule": "[{\"body\":[\"script src=\\\"http://code.zoomla.cn/\"]},{\"body\":[\"NodePage.aspx\",\"Item\"]},{\"body\":[\"/style/images/win8_symbol_140x140.png\"]}]"
+    },
+    "moosefs": {
+        "url": "http://www.moosefs.org",
+        "rule": "[{\"body\":[\"mfs.cgi\"]},{\"body\":[\"under-goal files\"]}]"
+    },
+    "北创图书检索系统": {
+        "url": "http://www.bcrj.com.cn",
+        "rule": "[{\"body\":[\"opac_two\"]}]"
+    },
+    "1024cms": {
+        "url": "http://www.1024cms.com",
+        "rule": "[{\"body\":[\"Powered by 1024 CMS\"]},{\"body\":[\"generator\\\" content=\\\"1024 CMS (c)\"]}]"
+    },
+    "360webfacil_360WebManager": {
+        "url": "http://www.360webfacil.com",
+        "rule": "[{\"body\":[\"publico/template/\",\"zonapie\"]},{\"body\":[\"360WebManager Software\"]}]"
+    },
+    "buscape": {
+        "url": "http://www.buscape.com.br",
+        "rule": "[{\"header\":[\"sessao3\"]}]"
+    },
+    "ManagedFusion": {
+        "url": "http://managedfusion.com/products/url-rewriter/",
+        "rule": "[{\"header\":[\"ManagedFusion\"]}]"
+    },
+    "Spark_Master": {
+        "url": "http://spark.apache.org",
+        "rule": "[{\"title\":[\"Spark Master at\"]}]"
+    },
+    "KXmail": {
+        "url": "http://mail.pushmold.com",
+        "rule": "[{\"body\":[\"Powered By <a href=\\\"http://www.kxmail.net\"]},{\"title\":[\"科信邮件系统\"]}]"
+    },
+    "地平线CMS": {
+        "url": "http://www.deepsoon.com/",
+        "rule": "[{\"title\":[\"Powered by deep soon\"],\"body\":[\"labelOppInforStyle\"]},{\"body\":[\"search_result.aspx\",\"frmsearch\"]}]"
+    },
+    "东方通中间件": {
+        "url": "http://www.tongtech.com/",
+        "rule": "[{\"header\":[\"TongWeb Server\"]}]"
+    },
+    "金龙卡金融化一卡通网站查询子系统": {
+        "url": "http://www.posser.net/",
+        "rule": "[{\"title\":[\"金龙卡金融化一卡通网站查询子系统\"]},{\"body\":[\"location.href=\\\"homeLogin.action\"]}]"
+    },
+    "Hudson": {
+        "url": "http://hudson-ci.org",
+        "rule": "[{\"header\":[\"X-Hudson\"]}]"
+    },
+    "加速乐": {
+        "url": "http://www.jiasule.com/",
+        "rule": "[{\"header\":[\"__jsluid\"]}]"
+    },
+    "teamportal": {
+        "url": "http://www.teamsystem.com",
+        "rule": "[{\"body\":[\"TS_expiredurl\"]}]"
+    },
+    "baidu广告联盟": {
+        "url": "http://yingxiao.baidu.com/support/adm/index.html",
+        "rule": "[{\"body\":[\"http://cpro.baidu.com/cpro/ui/c.js\"]},{\"body\":[\"http://cbjs.baidu.com/js/m.js\"]}]"
+    },
+    "RG-PowerCache内容加速系统": {
+        "url": "http://www.ruijie.com.cn/",
+        "rule": "[{\"title\":[\"RG-PowerCache\"]}]"
+    },
+    "fangmail": {
+        "url": "http://www.fangmail.net/",
+        "rule": "[{\"body\":[\"/fangmail/default/css/em_css.css\"]}]"
+    },
+    "万网企业云邮箱": {
+        "url": "http://mail.mxhichina.com/",
+        "rule": "[{\"body\":[\"static.mxhichina.com/images/favicon.ico\"]}]"
+    },
+    "Tipask": {
+        "url": "http://www.tipask.com",
+        "rule": "[{\"body\":[\"Tipask Team\"]}]"
+    },
+    "360网站安全检测": {
+        "url": "http://webscan.360.cn",
+        "rule": "[{\"body\":[\"webscan.360.cn/status/pai/hash\"]}]"
+    },
+    "EleanorCMS": {
+        "url": "http://eleanor-cms.ru",
+        "rule": "[{\"header\":[\"Eleanor CMS\"]}]"
+    },
+    "313自助建站": {
+        "url": "http://www.313.com.cn",
+        "rule": "[{\"header\":[\"313CMS\"]}]"
+    },
+    "Osclass": {
+        "url": "http://osclass.org/",
+        "rule": "[{\"body\":[\"generator\\\" content=\\\"Osclass\"]},{\"header\":[\"osclass\"]}]"
+    },
+    "Directadmin": {
+        "url": "http://www.directadmin.com",
+        "rule": "[{\"header\":[\"X-Directadmin\"]},{\"header\":[\"DirectAdmin Daemon\"]},{\"title\":[\"DirectAdmin Login\"]}]"
+    },
+    "wosign_ssl_cert": {
+        "url": "https://www.wosign.cn",
+        "rule": "[{\"body\":[\"https://seal.wosign.com/tws.js\"]},{\"body\":[\"https://seal.wosign.com/Signature\"]}]"
+    },
+    "mongodb": {
+        "url": "http://www.mongodb.org",
+        "rule": "[{\"body\":[\"<a href=\\\"/_replSet\\\">Replica set status</a></p>\"]}]"
+    },
+    "mod_auth_passthrough": {
+        "url": "http://cpanel.net",
+        "rule": "[{\"header\":[\"mod_auth_passthrough\"]}]"
+    },
+    "ntop": {
+        "url": "https://www.ntop.org",
+        "rule": "[{\"body\":[\"Global Traffic Statistics\"]},{\"header\":[\"Server: ntop\"]},{\"body\":[\"ntopMenuID\"]}]"
+    },
+    "addthis": {
+        "url": "http://addthis.com",
+        "rule": "[{\"body\":[\"addthis.com/js/\"]}]"
+    },
+    "Shop7Z": {
+        "url": "http://www.shop7z.com/",
+        "rule": "[{\"header\":[\"sitekeyword\"]},{\"body\":[\"productlist.asp\",\"headlist\"]}]"
+    },
+    "Open_AdStream": {
+        "url": "http://xaxis.com/",
+        "rule": "[{\"body\":[\"OAS_AD\"]}]"
+    },
+    "baidu统计": {
+        "url": "http://tongji.baidu.com/",
+        "rule": "[{\"body\":[\"hm.baidu.com/h.js\"]}]"
+    },
+    "wamp": {
+        "url": "http://www.wampserver.com/",
+        "rule": "[{\"title\":[\"WAMPSERVER\"]}]"
+    },
+    "FrontPageServerExtension": {
+        "url": "http://microsoft.com/",
+        "rule": "[{\"header\":[\"Microsoftofficewebserver\"]}]"
+    },
+    "MRTG": {
+        "url": "http://oss.oetiker.ch/mrtg/",
+        "rule": "[{\"body\":[\"Command line is easier to read using \\\"View Page Properties\\\" of your browser\"]},{\"title\":[\"MRTG Index Page\"]},{\"body\":[\"commandline was: indexmaker\"]}]"
+    },
+    "QingCloud": {
+        "url": "https://www.qingcloud.com",
+        "rule": "[{\"header\":[\"QINGCLOUDELB\"]}]"
+    },
+    "Foosun": {
+        "url": "http://www.foosun.net/",
+        "rule": "[{\"body\":[\"Created by DotNetCMS\"]},{\"body\":[\"For Foosun\"]},{\"body\":[\"Powered by www.Foosun.net,Products:Foosun Content Manage system\"]}]"
+    },
+    "某通用型政府cms": {
+        "url": "http://www.wooyun.org/bugs/wooyun-2014-054821",
+        "rule": "[{\"body\":[\"/deptWebsiteAction.do\"]}]"
+    },
+    "TCN协议": {
+        "url": "https://www.ietf.org/rfc/rfc2295.txt",
+        "rule": "[{\"header\":[\"Tcn: choice\"]},{\"header\":[\"Tcn: list\"]}]"
+    },
+    "Ruckus": {
+        "url": "http://www.ruckuswireless.com",
+        "rule": "[{\"body\":[\"mon. Tell me your username\"]},{\"title\":[\"Ruckus Wireless Admin\"]}]"
+    },
+    "phpweb": {
+        "url": "http://www.phpweb.net",
+        "rule": "[{\"body\":[\"PDV_PAGENAME\"]}]"
+    },
+    "blog_fc2": {
+        "url": "http://blog.fc2.com",
+        "rule": "[{\"header\":[\"bloguid\",\"cookietest=test\"]}]"
+    },
+    "eagleeyescctv": {
+        "url": "http://www.eagleeyescctv.com/",
+        "rule": "[{\"body\":[\"IP Surveillance for Your Life\"]},{\"body\":[\"/nobody/loginDevice.js\"]}]"
+    },
+    "AnZuWAF": {
+        "url": "http://www.fsg2.org",
+        "rule": "[{\"header\":[\"AnZuWAF\"]}]"
+    },
+    "Oracle-Application-Server": {
+        "url": "http://www.oracle.com/technetwork/middleware/ias/overview/index.html",
+        "rule": "[{\"header\":[\"Oracle-Application-Server\"]}]"
+    },
+    "Piwik": {
+        "url": "http://piwik.org",
+        "rule": "[{\"header\":[\"PIWIK_SESSID\"]}]"
+    }
+}

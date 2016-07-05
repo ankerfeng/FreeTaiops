@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block body %}
+<div class="content">
+<ul class="breadcrumb">
+        <li><a href="{{url_for('main.index')}}">首页</a> <span class="divider">/</span></li>
+        <li class="active">加密算法识别</li>
+</ul>
+<div class="content-wrap">
+  <div class="target-list-index">
+    <div class="search-well">
+                <form class="form-inline" action="{{url_for('main.hash_id')}}">
+                    <input class="input-xlarge" placeholder="f812c798eebe06c8" id="appendedInputButton" type="text" name="s" value="{{s}}">
+                    <button class="btn" type="submit"><i class="icon-search"></i>查询</button>
+                </form>
+    </div>
+<div class="panel panel-color">
+  <div class="panel-body" style="display: block;">
+    <section>
+      <ul id="myTab2" class="nav nav-tabs">
+        <li class="active">
+          <a href="#servicePanel" data-toggle="tab" aria-expanded="false">
+            Hash
+          </a>
+        </li>
+        </li>
+      </ul>
+  <section class="panel">
+        <div class="panel-body">
+          <div id="myTabContent2" class="tab-content">
+            <div class="tab-pane active" id="servicePanel">
+              <section class="panel">
+                <div class="service-list-index">
+                {% if not hashids and s%}
+                  <div class="alert alert-info">
+                    <button type="button" class="close" data-dismiss="alert">×</button>
+                    <span style="color:black">暂未识别的加密方式<span style="color:black"></span></span>
+                  </div>
+                {% endif %}
+                {% if hashids %}
+                    {% for id in hashids %}
+                        <span class="label label-success">{{id}}</span><br/>
+                    {%endfor%}
+                {% endif %}
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+</div>
+  </div>
+</div>
+{% endblock %}

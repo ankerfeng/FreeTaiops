@@ -1,0 +1,10 @@
+使用方法
+python httpinfo.py http://t-safe.org
+
+工具介绍
+本工具 只要通过对比 header title body 中的 指纹进行对比，
+来确定网站为什么app。
+方便利用对应app公开的漏洞进行深入渗透。
+
+
+指纹来自：https://javaweb.org/?p=1797
