@@ -25,5 +25,61 @@ Tai是泰山、ops是运维安全，但是自由版并没有带安全检测的�
 目录结构
 ---
 ```
-
+├── app_config.xml 
+├── appinfo 
+│   ├── app_finger 
+│   ├── __init__.py
+│   ├── readme
+│   ├── views.py
+│   └── Whatweb.py
+├── auth
+│   ├── form.py
+│   ├── inc.py
+│   ├── __init__.py
+│   └── views.py
+├── common
+│   ├── config.py
+│   ├── domain.sufix
+│   ├── formatck.py
+│   ├── form.py
+│   ├── __init__.py
+│   └── modles.py
+├── core
+│   └── __init__.py
+├── __init__.py
+├── main
+│   ├── errors.py
+│   ├── form.py
+│   ├── inc.py
+│   ├── index.py
+│   ├── __init__.py
+│   ├── pojmanager.py
+│   ├── project.py
+│   ├── qassert.py
+│   └── views.py
+├── server.py
+├── static
+├── templates
+└── worker
+    ├── assertimport
+    │   ├── asset_crawler.py
+    │   ├── data
+    │   ├── dict
+    │   ├── __init__.py
+    │   ├── lib
+    │   └── tmp.dic
+    ├── celeryconfig.py
+    ├── hashid
+    │   ├── hashid.py
+    │   └── __init__.py
+    ├── __init__.py
+    ├── portcrawler
+    │   ├── dict
+    │   ├── __init__.py
+    │   └── portcrawler.py
+    ├── sitecrawler
+    │   ├── __init__.py
+    │   └── sitecrawler.py
+    ├── tasks.py
+    └── tmp.dic
 ```
