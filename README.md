@@ -74,8 +74,6 @@ Tai是泰山，有稳如泰山的寓意。ops是运维安全的英文简写。�
 启动celery:celery -A tasks worker --loglevel=info
 启动server: (线上环境 默认)python server.py production (调试模式）python server.py development
 ```
-![](http://dev.bugsrc.com/wp-content/uploads/2016/07/1111.png)
-
 未来
 ---
 ```
